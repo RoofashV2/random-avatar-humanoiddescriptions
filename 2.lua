@@ -2,113 +2,549 @@
 --\\ [link]
 
 return {
-	["Pump"] = {
+	["Hialm"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				6937430072
+				6202043559,
+				7028827304,
+				6474496903
+			},
+			["ShouldersAccessory"] = {
+				6135136824,
+				6135138973
+			},
+			["FrontAccessory"] = {
+				6135045869
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 6937430072,
+				["AssetId"] = 6202043559,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7028827304,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6474496903,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4524481392,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6135136824,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 6135138973,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 6135045869,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Front
+			},
+			{
+				["AssetId"] = 4904620127,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
 			}
-		}
+		},
+			["WaistAccessory"] = {
+				4904620127
+			},
+			["HairAccessory"] = {
+				4524481392
+			}
 		},
 		["Clothing"] = {
-			["Shirt"] = 6496207566,
-			["Pants"] = 6436100290
+			["GraphicTShirt"] = 4730346314,
+			["Shirt"] = 58106710,
+			["Pants"] = 268918232
 		},
 		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 1.0499999523162842,
-			["HeightScale"] = 0.800000011920929,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
+			["BodyTypeScale"] = 0.10000000149011612,
+			["DepthScale"] = 0.8799999952316284,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.75
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 1, 1, 1,
-			["TorsoColor"] = 1, 1, 1,
-			["LeftArmColor"] = 1, 1, 1,
-			["RightLegColor"] = 1, 1, 1,
-			["RightArmColor"] = 1, 1, 1,
-			["LeftLegColor"] = 1, 1, 1
+			["HeadColor"] = Color3.fromRGB(17, 17, 17),
+			["TorsoColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftArmColor"] = Color3.fromRGB(17, 17, 17),
+			["RightLegColor"] = Color3.fromRGB(17, 17, 17),
+			["RightArmColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftLegColor"] = Color3.fromRGB(17, 17, 17)
 		},
 		["Animation"] = {
-			["FallAnimation"] = 837010685,
-			["ClimbAnimation"] = 837013990,
-			["IdleAnimation"] = 837011741,
-			["WalkAnimation"] = 837010234,
-			["SwimAnimation"] = 837012509,
-			["JumpAnimation"] = 837011171,
-			["RunAnimation"] = 837009922
+			["FallAnimation"] = 754636589,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 734326930,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["RightArm"] = 4504228453,
+			["LeftArm"] = 2859511736,
+			["Torso"] = 86499666,
+			["Face"] = 4645952767,
+			["RightLeg"] = 86499793,
+			["LeftLeg"] = 139607673
 		}
 	},
 
-	["Pumpky"] = {
+	["Hin"] = {
 		["Accessories"] = {
-			["HatAccessory"] = {
-				5892048299
-			},
-			["FaceAccessory"] = {
-				4995840495
+			["HairAccessory"] = {
+				5891050261
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 5892048299,
+				["AssetId"] = 5891050261,
 				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4995840495,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
+				["AccessoryType"] = Enum.AccessoryType.Hair
 			}
 		}
 		},
 		["Clothing"] = {
-			["Shirt"] = 3608030834,
-			["Pants"] = 5232342589
+			["Shirt"] = 8398053940,
+			["Pants"] = 8397885244
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
 		},
 		["Animation"] = {
-			["FallAnimation"] = 837010685,
-			["ClimbAnimation"] = 837013990,
-			["IdleAnimation"] = 837011741,
-			["WalkAnimation"] = 837010234,
-			["SwimAnimation"] = 837012509,
-			["JumpAnimation"] = 837011171,
-			["RunAnimation"] = 837009922
+			["FallAnimation"] = 1018552770,
+			["RunAnimation"] = 1018548665,
+			["IdleAnimation"] = 1018553897,
+			["JumpAnimation"] = 1018553240,
+			["WalkAnimation"] = 973767371
 		},
 		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 25166274
+			["RightArm"] = 86499698,
+			["Torso"] = 86499666,
+			["Head"] = 86498113,
+			["RightLeg"] = 86499793,
+			["Face"] = 25166274,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86499753
 		}
 	},
 
-	["Pureen"] = {
+	["Hodebow"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				5618831481
+				7084418627,
+				5459982119
 			},
 			["BackAccessory"] = {
-				6202280325
+				5063577434
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 5618831481,
+				["AssetId"] = 7084418627,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5459982119,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6682842829,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6473267983,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 7065047463,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 5505280532,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 4875436696,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 5063577434,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 6885503085,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				6885503085
+			},
+			["NeckAccessory"] = {
+				5505280532,
+				4875436696
+			},
+			["FaceAccessory"] = {
+				7065047463
+			},
+			["HairAccessory"] = {
+				6682842829,
+				6473267983
+			}
+		},
+		["Clothing"] = {
+			["GraphicTShirt"] = 7143811631,
+			["Shirt"] = 6152210654,
+			["Pants"] = 930174267
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 5319931619,
+			["IdleAnimation"] = 5319922112,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 5319927054,
+			["JumpAnimation"] = 5319917561,
+			["RunAnimation"] = 5319900634
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 7074893
+		}
+	},
+
+	["Hollow Knight"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				4735551808,
+				4567208558
+			},
+			["BackAccessory"] = {
+				7796532581,
+				6503448865
+			},
+			["NeckAccessory"] = {
+				536288816,
+				301820684
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4735551808,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4567208558,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 536288816,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 301820684,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 7796532581,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 6503448865,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5610020107,
+			["Pants"] = 5610149301
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(17, 17, 17),
+			["TorsoColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftArmColor"] = Color3.fromRGB(17, 17, 17),
+			["RightLegColor"] = Color3.fromRGB(17, 17, 17),
+			["RightArmColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftLegColor"] = Color3.fromRGB(17, 17, 17)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 5319931619,
+			["IdleAnimation"] = 5319922112,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 5319927054,
+			["JumpAnimation"] = 5319917561,
+			["RunAnimation"] = 5319900634
+		},
+		["Body"] = {
+			["RightArm"] = 27112039,
+			["LeftArm"] = 27112052,
+			["Torso"] = 27112025,
+			["Face"] = 133360789,
+			["RightLeg"] = 376531703,
+			["LeftLeg"] = 376531300
+		}
+	},
+
+	["Hollow Prince"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				4735551808,
+				4847179150,
+				4567208558
+			},
+			["BackAccessory"] = {
+				6503448865
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4735551808,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4847179150,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4567208558,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6503448865,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 7582931454,
+			["Pants"] = 7712454004
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(17, 17, 17),
+			["TorsoColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftArmColor"] = Color3.fromRGB(17, 17, 17),
+			["RightLegColor"] = Color3.fromRGB(17, 17, 17),
+			["RightArmColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftLegColor"] = Color3.fromRGB(17, 17, 17)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 5319931619,
+			["IdleAnimation"] = 5319922112,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 5319927054,
+			["JumpAnimation"] = 5319917561,
+			["RunAnimation"] = 5319900634
+		},
+		["Body"] = {
+			["RightArm"] = 27112039,
+			["LeftArm"] = 27112052,
+			["Torso"] = 27112025,
+			["Face"] = 133360789,
+			["RightLeg"] = 376531703,
+			["LeftLeg"] = 376531300
+		}
+	},
+
+	["Homelander"] = {
+		["Accessories"] = {
+			["BackAccessory"] = {
+				5268674645
+			},
+			["HairAccessory"] = {
+				5132004481
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5132004481,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 5268674645,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 9213989496,
+			["Pants"] = 9213997471
+		},
+		["Scale"] = {
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 1.0499999523162842,
+			["ProportionScale"] = 0,
+			["BodyTypeScale"] = 1
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 619521311,
+			["IdleAnimation"] = 754637456,
+			["WalkAnimation"] = 754636298,
+			["SwimAnimation"] = 619522642,
+			["JumpAnimation"] = 619522088,
+			["RunAnimation"] = 754635032
+		},
+		["Body"] = {
+			["RightArm"] = 32336117,
+			["Torso"] = 32336059,
+			["Head"] = 86498048,
+			["RightLeg"] = 27112068,
+			["Face"] = 8560971,
+			["LeftArm"] = 32336182,
+			["LeftLeg"] = 27112056
+		}
+	},
+
+	["Icecream Witch"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				10715339229,
+				4625433890
+			},
+			["HairAccessory"] = {
+				10905011600
+			},
+			["FaceAccessory"] = {
+				11191243953
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 10715339229,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4625433890,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 10905011600,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 11191243953,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5400214327,
+			["Pants"] = 5400219698
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8799999952316284,
+			["HeightScale"] = 0.8999999761581421,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.75
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(105, 64, 40),
+			["TorsoColor"] = Color3.fromRGB(105, 64, 40),
+			["LeftArmColor"] = Color3.fromRGB(105, 64, 40),
+			["RightLegColor"] = Color3.fromRGB(105, 64, 40),
+			["RightArmColor"] = Color3.fromRGB(105, 64, 40),
+			["LeftLegColor"] = Color3.fromRGB(105, 64, 40)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Body"] = {
+			["Torso"] = 48474356
+		}
+	},
+
+	["Icy"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				5945413096
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5945413096,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
@@ -128,1135 +564,6 @@ return {
 				["AccessoryType"] = Enum.AccessoryType.Face
 			},
 			{
-				["AssetId"] = 6995888299,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 6202280325,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		},
-			["FaceAccessory"] = {
-				6934244289,
-				6995888299
-			},
-			["HairAccessory"] = {
-				6902387258,
-				7859379478
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 7226964792,
-			["Pants"] = 6532301893
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1113742618,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Body"] = {
-			["Torso"] = 48474356
-		}
-	},
-
-	["Purple"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				375821870,
-				244159564
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 375821870,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 244159564,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 564451259,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 164482468,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 283748528,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 62690529,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 323420663,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 170892848,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				170892848
-			},
-			["NeckAccessory"] = {
-				323420663
-			},
-			["FaceAccessory"] = {
-				62690529
-			},
-			["HairAccessory"] = {
-				564451259,
-				164482468,
-				283748528
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 1364919476,
-			["Pants"] = 1364861317
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 26619096
-		}
-	},
-
-	["Purply"] = {
-		["Accessories"] = {
-			["HairAccessory"] = {
-				62724852
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 62724852,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			}
-		}
-		},
-		["Clothing"] = {
-			["Pants"] = 2828224046
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["Torso"] = 86499666,
-			["Head"] = 891995400,
-			["RightLeg"] = 86499793,
-			["Face"] = 7506135,
-			["LeftArm"] = 86499716,
-			["LeftLeg"] = 86499753
-		}
-	},
-
-	["Qian"] = {
-		["Accessories"] = {
-			["HairAccessory"] = {
-				6475675246
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6475675246,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Body"] = {
-			["RightArm"] = 6475670694,
-			["Head"] = 6475673889,
-			["RightLeg"] = 6475671687,
-			["Torso"] = 6475672692,
-			["LeftArm"] = 6475668016,
-			["LeftLeg"] = 6475669689
-		}
-	},
-
-	["Rabby"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4659750955,
-				4800425048,
-				4708259348,
-				4584704153
-			},
-			["HairAccessory"] = {
-				4935029362
-			},
-			["FaceAccessory"] = {
-				11884330
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4659750955,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4800425048,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4708259348,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4584704153,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4935029362,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 11884330,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 4741657846,
-			["Pants"] = 1585875153
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["WidthScale"] = 0.8500000238418579,
-			["DepthScale"] = 0.9200000166893005,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["Torso"] = 86499666,
-			["Head"] = 86498113,
-			["RightLeg"] = 86499793,
-			["Face"] = 14861743,
-			["LeftArm"] = 86499716,
-			["LeftLeg"] = 86499753
-		}
-	},
-
-	["Ralsei"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7142063376,
-				4847179150,
-				7793340180
-			},
-			["ShouldersAccessory"] = {
-				362061849
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7142063376,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4847179150,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7793340180,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7667707103,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6002641802,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 6532299511,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4772326198,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 362061849,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 7793340832,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				7793340832
-			},
-			["FaceAccessory"] = {
-				6002641802,
-				6532299511,
-				4772326198
-			},
-			["HairAccessory"] = {
-				7667707103
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 7582931454,
-			["Pants"] = 4875841614
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["HeightScale"] = 0.8999999761581421
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["TorsoColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightLegColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftLegColor"] = 0.0666667, 0.0666667, 0.0666667
-		},
-		["Animation"] = {
-			["FallAnimation"] = 5319914476,
-			["ClimbAnimation"] = 5319931619,
-			["IdleAnimation"] = 5319922112,
-			["WalkAnimation"] = 5319909330,
-			["SwimAnimation"] = 5319927054,
-			["JumpAnimation"] = 5319917561,
-			["RunAnimation"] = 5319900634
-		}
-	},
-
-	["Rami"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5318235356
-			},
-			["HairAccessory"] = {
-				8835497387
-			},
-			["FaceAccessory"] = {
-				8467897097
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5318235356,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 8835497387,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 8467897097,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 6781266925,
-			["Pants"] = 6983347726
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.949999988079071,
-			["ProportionScale"] = 0.47999998927116394
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.411765, 0.25098, 0.156863,
-			["TorsoColor"] = 0.411765, 0.25098, 0.156863,
-			["LeftArmColor"] = 0.411765, 0.25098, 0.156863,
-			["RightLegColor"] = 0.411765, 0.25098, 0.156863,
-			["RightArmColor"] = 0.411765, 0.25098, 0.156863,
-			["LeftLegColor"] = 0.411765, 0.25098, 0.156863
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 7987180607
-		}
-	},
-
-	["Rano"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				8303785386,
-				6963894047
-			},
-			["BackAccessory"] = {
-				6838392498
-			},
-			["FrontAccessory"] = {
-				8185216491
-			},
-			["AccessoryBlob"] = {
-			{
-				["Order"] = 10,
-				["AssetId"] = 9059176760,
-				["AccessoryType"] = Enum.AccessoryType.Jacket,
-				["IsLayered"] = true
-			},
-			{
-				["AssetId"] = 8303785386,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6963894047,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5064875017,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7394719821,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7029355800,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 8185216491,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Front
-			},
-			{
-				["AssetId"] = 6838392498,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		},
-			["NeckAccessory"] = {
-				7029355800
-			},
-			["FaceAccessory"] = {
-				7394719821
-			},
-			["HairAccessory"] = {
-				5064875017
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 7227522053,
-			["Pants"] = 8777001806
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Animation"] = {
-			["FallAnimation"] = 754636589,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 86499666,
-			["Face"] = 7074944,
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716
-		}
-	},
-
-	["Red"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4740146170
-			},
-			["HairAccessory"] = {
-				6133158361,
-				3993395828
-			},
-			["FaceAccessory"] = {
-				4545294588
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4740146170,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6133158361,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 3993395828,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4545294588,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 2577280683,
-			["Pants"] = 6024988416
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.949999988079071,
-			["HeightScale"] = 1.0499999523162842,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.8999999761581421
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.788235, 0.788235,
-			["TorsoColor"] = 1, 0.788235, 0.788235,
-			["LeftArmColor"] = 1, 0.788235, 0.788235,
-			["RightLegColor"] = 1, 0.788235, 0.788235,
-			["RightArmColor"] = 1, 0.788235, 0.788235,
-			["LeftLegColor"] = 1, 0.788235, 0.788235
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 391496223
-		}
-	},
-
-	["Red Dino"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				1469728415
-			},
-			["FaceAccessory"] = {
-				11884330
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 1469728415,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 11884330,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 3792812902,
-			["Pants"] = 3841671602
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.3499999940395355
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 1, 0,
-			["TorsoColor"] = 1, 1, 0,
-			["LeftArmColor"] = 1, 1, 0,
-			["RightLegColor"] = 1, 1, 0,
-			["RightArmColor"] = 1, 1, 0,
-			["LeftLegColor"] = 1, 1, 0
-		},
-		["Animation"] = {
-			["FallAnimation"] = 837010685,
-			["ClimbAnimation"] = 837013990,
-			["IdleAnimation"] = 837011741,
-			["WalkAnimation"] = 837010234,
-			["SwimAnimation"] = 837012509,
-			["JumpAnimation"] = 837011171,
-			["RunAnimation"] = 837009922
-		},
-		["Body"] = {
-			["Face"] = 14861743
-		}
-	},
-
-	["Rein"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7398528251,
-				6376424088
-			},
-			["HairAccessory"] = {
-				9731244002
-			},
-			["FaceAccessory"] = {
-				7610939342
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7398528251,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6376424088,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 9731244002,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7610939342,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 8369626476,
-			["Pants"] = 8679968975
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.105882, 0.164706, 0.207843,
-			["TorsoColor"] = 0.105882, 0.164706, 0.207843,
-			["LeftArmColor"] = 0.105882, 0.164706, 0.207843,
-			["RightLegColor"] = 0.105882, 0.164706, 0.207843,
-			["RightArmColor"] = 0.105882, 0.164706, 0.207843,
-			["LeftLegColor"] = 0.105882, 0.164706, 0.207843
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1090132063,
-			["ClimbAnimation"] = 1090134016,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1090131576,
-			["SwimAnimation"] = 1090133583,
-			["JumpAnimation"] = 1090132507,
-			["RunAnimation"] = 1090130630
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 8247356154
-		}
-	},
-
-	["Reinforced Crate"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				10083399776
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 10083399776,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.639216, 0.635294, 0.647059,
-			["TorsoColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftArmColor"] = 0.639216, 0.635294, 0.647059,
-			["RightLegColor"] = 0.639216, 0.635294, 0.647059,
-			["RightArmColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftLegColor"] = 0.639216, 0.635294, 0.647059
-		},
-		["Body"] = {
-			["RightArm"] = 10083385484,
-			["Head"] = 10083373871,
-			["RightLeg"] = 10083392057,
-			["Torso"] = 10083395878,
-			["LeftArm"] = 10083382283,
-			["LeftLeg"] = 10083388895
-		}
-	},
-
-	["Renamon"] = {
-		["Accessories"] = {
-			["NeckAccessory"] = {
-				6653758716
-			},
-			["BackAccessory"] = {
-				7062192085
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6076592519,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6042582049,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6653758716,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 7062192085,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 6076596173,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["HatAccessory"] = {
-				6076592519,
-				6042582049
-			},
-			["WaistAccessory"] = {
-				6076596173
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 5736558831,
-			["Pants"] = 5737367050
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.9700000286102295,
-			["HeightScale"] = 1.0499999523162842,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.85098, 0.427451,
-			["TorsoColor"] = 0.972549, 0.85098, 0.427451,
-			["LeftArmColor"] = 0.972549, 0.85098, 0.427451,
-			["RightLegColor"] = 0.972549, 0.85098, 0.427451,
-			["RightArmColor"] = 0.972549, 0.85098, 0.427451,
-			["LeftLegColor"] = 0.972549, 0.85098, 0.427451
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 2510242378,
-			["JumpAnimation"] = 2510236649,
-			["SwimAnimation"] = 2510240941
-		},
-		["Body"] = {
-			["RightArm"] = 27112039,
-			["Torso"] = 27112025,
-			["Head"] = 86498048,
-			["RightLeg"] = 27112068,
-			["Face"] = 5917459717,
-			["LeftArm"] = 27112052,
-			["LeftLeg"] = 27112056
-		}
-	},
-
-	["Riot Wolf"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5765092840,
-				6201785359,
-				6134086260,
-				7200514283,
-				7199504387
-			},
-			["FrontAccessory"] = {
-				6602092759,
-				7213677261
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5765092840,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6201785359,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6134086260,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7200514283,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7199504387,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6754446477,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6602092759,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Front
-			},
-			{
-				["AssetId"] = 7213677261,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Front
-			},
-			{
-				["AssetId"] = 7062023079,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				7062023079
-			},
-			["HairAccessory"] = {
-				6754446477
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 591642797,
-			["Pants"] = 591643266
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 619527470,
-			["IdleAnimation"] = 973771666,
-			["WalkAnimation"] = 3307608414,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 619528716
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 4645952767
-		}
-	},
-
-	["Rita"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4735437091,
-				4524486331,
-				170892848,
-				11884330,
-				1374269
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4735437091,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4524486331,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 170892848,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 11884330,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 1374269,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			}
-		}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 5334185181,
-			["Pants"] = 5338049170
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.10000000149011612
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.898039, 0.894118, 0.87451,
-			["TorsoColor"] = 0.898039, 0.894118, 0.87451,
-			["LeftArmColor"] = 0.898039, 0.894118, 0.87451,
-			["RightLegColor"] = 0.898039, 0.894118, 0.87451,
-			["RightArmColor"] = 0.898039, 0.894118, 0.87451,
-			["LeftLegColor"] = 0.898039, 0.894118, 0.87451
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 15432080
-		}
-	},
-
-	["Rong"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				6476063909
-			},
-			["HairAccessory"] = {
-				6476062715
-			},
-			["FaceAccessory"] = {
-				6476061745
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6476063909,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6476062715,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6476061745,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Body"] = {
-			["RightArm"] = 6476056837,
-			["Head"] = 6476060040,
-			["RightLeg"] = 6476057848,
-			["Torso"] = 6476058891,
-			["LeftArm"] = 6476054180,
-			["LeftLeg"] = 6476055804
-		}
-	},
-
-	["Roohby"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				6713046259
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6713046259,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5674523548,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6128248269,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
 				["AssetId"] = 7565101463,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Face
@@ -1267,38 +574,41 @@ return {
 				["AccessoryType"] = Enum.AccessoryType.Face
 			},
 			{
-				["AssetId"] = 7491829146,
+				["AssetId"] = 8091898619,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Neck
 			}
 		},
 			["NeckAccessory"] = {
-				7491829146
+				8091898619
 			},
 			["FaceAccessory"] = {
+				6934244289,
 				7565101463,
 				7097873027
 			},
 			["HairAccessory"] = {
-				5674523548,
-				6128248269
+				6902387258,
+				7859379478
 			}
 		},
 		["Clothing"] = {
-			["Shirt"] = 5796651589,
-			["Pants"] = 5796804042
+			["Shirt"] = 4473902732,
+			["Pants"] = 6309235634
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.8500000238418579,
+			["DepthScale"] = 0.9200000166893005,
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
 		},
 		["Animation"] = {
 			["FallAnimation"] = 1090132063,
@@ -1315,268 +625,73 @@ return {
 		}
 	},
 
-	["Rooty"] = {
+	["Ink"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				6133255800,
-				6447775593
+				6995814098,
+				6997268164
 			},
 			["BackAccessory"] = {
-				5315452348
+				4641940424
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 6133255800,
+				["AssetId"] = 6995814098,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 6447775593,
+				["AssetId"] = 6997268164,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 6275661250,
+				["AssetId"] = 7063047191,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hair
 			},
 			{
-				["AssetId"] = 5920359974,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5769262031,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5891039736,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6008020755,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6036264253,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4466228735,
+				["AssetId"] = 7062089893,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Face
 			},
 			{
-				["AssetId"] = 5315452348,
+				["AssetId"] = 4641940424,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Back
 			}
 		},
 			["FaceAccessory"] = {
-				4466228735
+				7062089893
 			},
 			["HairAccessory"] = {
-				6275661250,
-				5920359974,
-				5769262031,
-				5891039736,
-				6008020755,
-				6036264253
+				7063047191
 			}
 		},
 		["Clothing"] = {
-			["Pants"] = 6270376058
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1090132063,
-			["RunAnimation"] = 2510238627,
-			["IdleAnimation"] = 973771666,
-			["JumpAnimation"] = 1090132507,
-			["WalkAnimation"] = 658831143
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["Torso"] = 86499666,
-			["Head"] = 746767604,
-			["RightLeg"] = 86500078,
-			["Face"] = 10831558,
-			["LeftArm"] = 86499716,
-			["LeftLeg"] = 86500064
-		}
-	},
-
-	["Rosalina"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5768753314
-			},
-			["BackAccessory"] = {
-				7066642123
-			},
-			["AccessoryBlob"] = {
-			{
-				["Order"] = 0,
-				["AssetId"] = 9342315165,
-				["AccessoryType"] = Enum.AccessoryType.DressSkirt,
-				["IsLayered"] = true
-			},
-			{
-				["AssetId"] = 5768753314,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6011086604,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 10981150910,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7209668990,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 8876819161,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 7066642123,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		},
-			["ShouldersAccessory"] = {
-				8876819161
-			},
-			["FaceAccessory"] = {
-				10981150910,
-				7209668990
-			},
-			["HairAccessory"] = {
-				6011086604
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 8058779546,
-			["Pants"] = 8058781916
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.699999988079071,
-			["WidthScale"] = 0.8500000238418579,
-			["DepthScale"] = 0.9200000166893005,
-			["ProportionScale"] = 0.3400000035762787
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["JumpAnimation"] = 619511974,
-			["SwimAnimation"] = 619512450
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
-			["Torso"] = 86499666,
-			["Face"] = 6531983163,
-			["RightLeg"] = 86499793,
-			["LeftLeg"] = 86499753
-		}
-	},
-
-	["Runa"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5620295124,
-				4963114393
-			},
-			["HairAccessory"] = {
-				6365093370
-			},
-			["FaceAccessory"] = {
-				6105519422
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5620295124,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4963114393,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6365093370,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6105519422,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 5523935647,
-			["Pants"] = 5523937302
+			["Shirt"] = 5949991120,
+			["Pants"] = 4921738030
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
+			["HeadColor"] = Color3.fromRGB(17, 17, 17),
+			["TorsoColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftArmColor"] = Color3.fromRGB(17, 17, 17),
+			["RightLegColor"] = Color3.fromRGB(17, 17, 17),
+			["RightArmColor"] = Color3.fromRGB(17, 17, 17),
+			["LeftLegColor"] = Color3.fromRGB(17, 17, 17)
 		},
 		["Animation"] = {
-			["FallAnimation"] = 5319914476,
-			["ClimbAnimation"] = 5319931619,
-			["IdleAnimation"] = 5319922112,
-			["WalkAnimation"] = 5319909330,
-			["SwimAnimation"] = 5319927054,
-			["JumpAnimation"] = 5319917561,
-			["RunAnimation"] = 5319900634
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
 		},
 		["Body"] = {
 			["Torso"] = 48474356,
@@ -1584,1531 +699,72 @@ return {
 		}
 	},
 
-	["Rusty & Copper"] = {
+	["Jackson"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				5062225573
-			},
-			["WaistAccessory"] = {
-				5062227949
+				6352274898
 			},
 			["HairAccessory"] = {
-				5062223469
+				5551033198
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 5062225573,
+				["AssetId"] = 6352274898,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 5062223469,
+				["AssetId"] = 5551033198,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5062227949,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
 			}
 		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.639216, 0.635294, 0.647059,
-			["TorsoColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftArmColor"] = 0.639216, 0.635294, 0.647059,
-			["RightLegColor"] = 0.639216, 0.635294, 0.647059,
-			["RightArmColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftLegColor"] = 0.639216, 0.635294, 0.647059
-		},
-		["Body"] = {
-			["RightArm"] = 5062213138,
-			["Head"] = 5062221226,
-			["RightLeg"] = 5062216374,
-			["Torso"] = 5062219015,
-			["LeftArm"] = 5062211419,
-			["LeftLeg"] = 5062214600
-		}
-	},
-
-	["Ryanzard"] = {
-		["Accessories"] = {
-			["NeckAccessory"] = {
-				6065658684
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4624052046,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4604306937,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6065658684,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 1320955567,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				1320955567
-			},
-			["HatAccessory"] = {
-				4624052046
-			},
-			["HairAccessory"] = {
-				4604306937
-			}
 		},
 		["Clothing"] = {
-			["Shirt"] = 6284291560,
-			["Pants"] = 1604331153
+			["Shirt"] = 2288371901,
+			["Pants"] = 2288376895
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["IdleAnimation"] = 1018553897,
-			["JumpAnimation"] = 1018553240
-		},
-		["Body"] = {
-			["Face"] = 20418658
-		}
-	},
-
-	["Saiko"] = {
-		["Accessories"] = {
-			["HairAccessory"] = {
-				6588237740
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6588237740,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 5692153330,
-			["Pants"] = 6465379746
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.788235, 0.788235,
-			["TorsoColor"] = 1, 0.788235, 0.788235,
-			["LeftArmColor"] = 1, 0.788235, 0.788235,
-			["RightLegColor"] = 1, 0.788235, 0.788235,
-			["RightArmColor"] = 1, 0.788235, 0.788235,
-			["LeftLegColor"] = 1, 0.788235, 0.788235
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
-			["Torso"] = 86499666,
-			["Face"] = 20418658,
-			["RightLeg"] = 86499793,
-			["LeftLeg"] = 86499753
-		}
-	},
-
-	["Saul"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				6187481148
-			},
-			["HairAccessory"] = {
-				4416804243
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6187481148,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4416804243,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			}
-		}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 7132227871,
-			["Shirt"] = 7995242632,
-			["Pants"] = 7995246549
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["HeightScale"] = 1.0499999523162842,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Body"] = {
-			["RightArm"] = 376531012,
-			["Torso"] = 376532000,
-			["Head"] = 86498048,
-			["RightLeg"] = 376531703,
-			["Face"] = 21311601,
-			["LeftArm"] = 376530220,
-			["LeftLeg"] = 376531300
-		}
-	},
-
-	["Sayori"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7063432500
-			},
-			["HairAccessory"] = {
-				5164447013
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7063432500,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5164447013,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 6962555904,
-			["Pants"] = 6962549259
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.8999999761581421
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Body"] = {
-			["RightArm"] = 27112039,
-			["LeftArm"] = 27112052,
-			["Torso"] = 27112025,
-			["Face"] = 25166274,
-			["RightLeg"] = 27112068,
-			["LeftLeg"] = 27112056
-		}
-	},
-
-	["Scambot"] = {
-		["Accessories"] = {
-			["ShouldersAccessory"] = {
-				253151806
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 253151806,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			}
-		}
-		},
-		["Clothing"] = {
-			["Pants"] = 144076760
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0, 1, 0,
-			["TorsoColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftArmColor"] = 0, 1, 0,
-			["RightLegColor"] = 0, 1, 0,
-			["RightArmColor"] = 0, 1, 0,
-			["LeftLegColor"] = 0, 1, 0
-		},
-		["Body"] = {
-			["RightArm"] = 86500036,
-			["Face"] = 86487700,
-			["LeftArm"] = 86500054,
-			["Head"] = 6340101
-		}
-	},
-
-	["Scarecrow"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				13121508,
-				7443286609
-			},
-			["BackAccessory"] = {
-				11274623836
-			},
-			["NeckAccessory"] = {
-				7546400029
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 11236587197,
-				["Order"] = 10,
-				["IsLayered"] = true,
-				["Puffiness"] = 0.5,
-				["AccessoryType"] = Enum.AccessoryType.Jacket
-			},
-			{
-				["AssetId"] = 13121508,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7443286609,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7546400029,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 11274623836,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 2194746744,
-			["Pants"] = 2065881884
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["TorsoColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightLegColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftLegColor"] = 0.0666667, 0.0666667, 0.0666667
-		},
-		["Animation"] = {
-			["FallAnimation"] = 5319914476,
-			["ClimbAnimation"] = 5319931619,
-			["IdleAnimation"] = 5319922112,
-			["WalkAnimation"] = 5319909330,
-			["SwimAnimation"] = 5319927054,
-			["JumpAnimation"] = 5319917561,
-			["RunAnimation"] = 5319900634
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
-			["Torso"] = 86499666,
-			["Face"] = 8560971,
-			["RightLeg"] = 86499793,
-			["LeftLeg"] = 86499753
-		}
-	},
-
-	["Scene"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4794059960
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4794059960,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7353739388,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7379208262,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7029124699,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 7339285612,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			}
-		},
-			["NeckAccessory"] = {
-				7029124699,
-				7339285612
-			},
-			["FaceAccessory"] = {
-				7379208262
-			},
-			["HairAccessory"] = {
-				7353739388
-			}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 6828112538,
-			["Shirt"] = 6643118846,
-			["Pants"] = 6448872262
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 754636589,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
-			["Torso"] = 86499666,
-			["Face"] = 3091071034,
-			["RightLeg"] = 86500078,
-			["LeftLeg"] = 86500064
-		}
-	},
-
-	["Scene"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				10688210306
-			},
-			["BackAccessory"] = {
-				10385344441
-			},
-			["AccessoryBlob"] = {
-			{
-				["Order"] = 10,
-				["AssetId"] = 10795789642,
-				["AccessoryType"] = Enum.AccessoryType.Jacket,
-				["IsLayered"] = true
-			},
-			{
-				["Order"] = 4,
-				["AssetId"] = 10713824111,
-				["AccessoryType"] = Enum.AccessoryType.Pants,
-				["IsLayered"] = true
-			},
-			{
-				["Order"] = 6,
-				["AssetId"] = 9341967121,
-				["AccessoryType"] = Enum.AccessoryType.DressSkirt,
-				["IsLayered"] = true
-			},
-			{
-				["AssetId"] = 10688210306,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 10688205588,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 10928789219,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 10385344441,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 10810682354,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				10810682354
-			},
-			["FaceAccessory"] = {
-				10928789219
-			},
-			["HairAccessory"] = {
-				10688205588
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 7230645422,
-			["Pants"] = 10707912898
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["HeightScale"] = 0.8999999761581421,
-			["DepthScale"] = 0.9300000071525574,
-			["WidthScale"] = 0.8511000275611877
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Animation"] = {
-			["FallAnimation"] = 754636589,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
-			["Torso"] = 86499666,
-			["Face"] = 7987180607,
-			["RightLeg"] = 86500078,
-			["LeftLeg"] = 86500064
-		}
-	},
-
-	["Schezo Wegey"] = {
-		["Body"] = {
-			["Face"] = 406001308
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Accessories"] = {
-			["HatAccessory"] = {
-				67200664,
-				4904051498
-			},
-			["BackAccessory"] = {
-				4508789403
-			},
-			["HairAccessory"] = {
-				5099774650
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 67200664,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4904051498,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5099774650,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4508789403,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 5431192635,
-			["Pants"] = 5431188851
-		}
-	},
-
-	["Serana"] = {
-		["Accessories"] = {
-			["NeckAccessory"] = {
-				301820523
-			},
-			["HairAccessory"] = {
-				301818806
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 301818806,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 301820523,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 301807898,
-			["Pants"] = 301810602
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Body"] = {
-			["RightArm"] = 301822975,
-			["LeftArm"] = 301822804,
-			["Torso"] = 301824116,
-			["Face"] = 301826957,
-			["RightLeg"] = 301823806,
-			["LeftLeg"] = 301823492
-		}
-	},
-
-	["Shirsha"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				6965209469,
-				6995823850
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6965209469,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6995823850,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7175904988,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7029569201,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7062023079,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				7062023079
-			},
-			["FaceAccessory"] = {
-				7029569201
-			},
-			["HairAccessory"] = {
-				7175904988
-			}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 4730346314,
-			["Shirt"] = 5334185181,
-			["Pants"] = 5338049170
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.10000000149011612,
-			["DepthScale"] = 0.8799999952316284,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["WidthScale"] = 0.75
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 754636589,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356
-		}
-	},
-
-	["Silence"] = {
-		["Accessories"] = {
-			["BackAccessory"] = {
-				133553855
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5164483928,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5318437524,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4584703359,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5356726736,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 1241147665,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 133553855,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 5628954982,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			},
-			{
-				["AssetId"] = 4904620127,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			},
-			{
-				["AssetId"] = 5132003189,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			},
-			{
-				["AssetId"] = 4585187008,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				5628954982,
-				4904620127,
-				5132003189,
-				4585187008
-			},
-			["FaceAccessory"] = {
-				5356726736,
-				1241147665
-			},
-			["HairAccessory"] = {
-				5164483928,
-				5318437524,
-				4584703359
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 5090185232,
-			["Pants"] = 5909214258
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["TorsoColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightLegColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftLegColor"] = 0.0666667, 0.0666667, 0.0666667
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 10860397
-		}
-	},
-
-	["Sister"] = {
-		["Accessories"] = {
-			["NeckAccessory"] = {
-				4482785969
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4607899752,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4484484690,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 3964545505,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4255741370,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4482785969,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 4462051251,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				4462051251
-			},
-			["HatAccessory"] = {
-				4607899752,
-				4484484690,
-				3964545505
-			},
-			["HairAccessory"] = {
-				4255741370
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 4299035981,
-			["Pants"] = 4298984008
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 754636589,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["Torso"] = 86499666,
-			["Head"] = 86498113,
-			["RightLeg"] = 86500078,
-			["Face"] = 494291269,
-			["LeftArm"] = 86499716,
-			["LeftLeg"] = 86500064
-		}
-	},
-
-	["Six"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4963116057
-			},
-			["HairAccessory"] = {
-				5891050261
-			},
-			["FaceAccessory"] = {
-				5858525824
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4963116057,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5891050261,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5858525824,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 6265538844,
-			["Pants"] = 6318334763
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["HeightScale"] = 0.8999999761581421,
 			["DepthScale"] = 0.8999999761581421,
+			["HeightScale"] = 1.0499999523162842,
+			["ProportionScale"] = 0,
 			["WidthScale"] = 0.800000011920929
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 5319914476,
-			["ClimbAnimation"] = 5319931619,
-			["IdleAnimation"] = 5319922112,
-			["WalkAnimation"] = 5319909330,
-			["SwimAnimation"] = 5319927054,
-			["JumpAnimation"] = 5319917561,
-			["RunAnimation"] = 5319900634
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 25166274
-		}
-	},
-
-	["Skeletal Dragon"] = {
-		["Accessories"] = {
-			["BackAccessory"] = {
-				3993377031,
-				3993371021
-			},
-			["WaistAccessory"] = {
-				3993375676
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 3993377031,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 3993371021,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 3993375676,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619541867,
-			["ClimbAnimation"] = 619541458,
-			["IdleAnimation"] = 619542203,
-			["WalkAnimation"] = 619544080,
-			["SwimAnimation"] = 619543721,
-			["JumpAnimation"] = 619542888,
-			["RunAnimation"] = 619543231
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.898039, 0.894118, 0.87451,
-			["TorsoColor"] = 0.898039, 0.894118, 0.87451,
-			["LeftArmColor"] = 0.898039, 0.894118, 0.87451,
-			["RightLegColor"] = 0.898039, 0.894118, 0.87451,
-			["RightArmColor"] = 0.898039, 0.894118, 0.87451,
-			["LeftLegColor"] = 0.898039, 0.894118, 0.87451
-		},
-		["Body"] = {
-			["RightArm"] = 3993381000,
-			["Head"] = 3993372818,
-			["RightLeg"] = 3993384098,
-			["Torso"] = 3993386468,
-			["LeftArm"] = 3993378992,
-			["LeftLeg"] = 3993390588
-		}
-	},
-
-	["Skid"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7172662810
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7172662810,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 6894112227,
-			["Pants"] = 6894086299
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 1.0499999523162842,
-			["HeightScale"] = 0.800000011920929,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 1, 1,
-			["TorsoColor"] = 1, 1, 1,
-			["LeftArmColor"] = 1, 1, 1,
-			["RightLegColor"] = 1, 1, 1,
-			["RightArmColor"] = 1, 1, 1,
-			["LeftLegColor"] = 1, 1, 1
+			["HeadColor"] = Color3.fromRGB(160, 95, 53),
+			["TorsoColor"] = Color3.fromRGB(160, 95, 53),
+			["LeftArmColor"] = Color3.fromRGB(160, 95, 53),
+			["RightLegColor"] = Color3.fromRGB(160, 95, 53),
+			["RightArmColor"] = Color3.fromRGB(160, 95, 53),
+			["LeftLegColor"] = Color3.fromRGB(160, 95, 53)
 		},
 		["Animation"] = {
 			["FallAnimation"] = 837010685,
 			["ClimbAnimation"] = 837013990,
-			["IdleAnimation"] = 837011741,
+			["IdleAnimation"] = 3710007708,
 			["WalkAnimation"] = 837010234,
 			["SwimAnimation"] = 837012509,
 			["JumpAnimation"] = 837011171,
 			["RunAnimation"] = 837009922
-		}
-	},
-
-	["Skull Kid"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7858025781,
-				58812966
-			},
-			["NeckAccessory"] = {
-				8845605006
-			},
-			["FaceAccessory"] = {
-				9580479225
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7858025781,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 58812966,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 9580479225,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 8845605006,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 2223008034,
-			["Pants"] = 766692731
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.949999988079071,
-			["HeightScale"] = 1.0499999523162842,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.8999999761581421
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["TorsoColor"] = 0.411765, 0.25098, 0.156863,
-			["LeftArmColor"] = 0.411765, 0.25098, 0.156863,
-			["RightLegColor"] = 0.411765, 0.25098, 0.156863,
-			["RightArmColor"] = 0.411765, 0.25098, 0.156863,
-			["LeftLegColor"] = 0.411765, 0.25098, 0.156863
-		},
-		["Animation"] = {
-			["WalkAnimation"] = 5319909330,
-			["RunAnimation"] = 5319900634
 		},
 		["Body"] = {
-			["RightArm"] = 27112039,
-			["LeftArm"] = 27112052,
-			["Torso"] = 27112025,
-			["RightLeg"] = 27112068,
-			["LeftLeg"] = 27112056
+			["Face"] = 1665511048
 		}
 	},
 
-	["Skylas"] = {
+	["Jester Equinox"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				4656810621
-			},
-			["BackAccessory"] = {
-				4656811721
-			},
-			["HairAccessory"] = {
-				4656808845
+				2962661117
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 4656810621,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4656808845,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4656811721,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Body"] = {
-			["RightArm"] = 4656803363,
-			["Head"] = 4656808098,
-			["RightLeg"] = 4656804100,
-			["Torso"] = 4656804778,
-			["LeftArm"] = 4656778337,
-			["LeftLeg"] = 4656779092
-		}
-	},
-
-	["Sli"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				6741125648
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6741125648,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 10439336650,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 10856036824,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 10827787839,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4378579302,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 5945042484,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			}
-		},
-			["NeckAccessory"] = {
-				4378579302,
-				5945042484
-			},
-			["FaceAccessory"] = {
-				10856036824,
-				10827787839
-			},
-			["HairAccessory"] = {
-				10439336650
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 5347347090,
-			["Pants"] = 5347365776
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 25166274
-		}
-	},
-
-	["Snowflake"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5459995751,
-				1425141074,
-				11884330,
-				170892848,
-				4507921378
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5459995751,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 1425141074,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 11884330,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 170892848,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4507921378,
+				["AssetId"] = 2962661117,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			}
 		}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 5543505705,
-			["Pants"] = 5543513755
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.10000000149011612
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.898039, 0.894118, 0.87451,
-			["LeftLegColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 20418658
-		}
-	},
-
-	["Sol"] = {
-		["Accessories"] = {
-			["HairAccessory"] = {
-				5324781487
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5324781487,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Body"] = {
-			["RightArm"] = 5324761132,
-			["Head"] = 5324778174,
-			["RightLeg"] = 5324763531,
-			["Torso"] = 5324775023,
-			["LeftArm"] = 5324755440,
-			["LeftLeg"] = 5324758279
-		}
-	},
-
-	["Space"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				3237686213,
-				6682341860,
-				7939837749
-			},
-			["BackAccessory"] = {
-				7895959446
-			},
-			["HairAccessory"] = {
-				168167316
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 3237686213,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6682341860,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7939837749,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 168167316,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7895959446,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 3245332822,
-			["Pants"] = 3245333663
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 754636589,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 3091071034
-		}
-	},
-
-	["Space Cat"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4504988099
-			},
-			["WaistAccessory"] = {
-				170892848
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4504988099,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 170892848,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 1298126710,
-			["Shirt"] = 4524261553,
-			["Pants"] = 4505107296
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
 		},
 		["Animation"] = {
 			["FallAnimation"] = 837010685,
@@ -3119,427 +775,44 @@ return {
 			["JumpAnimation"] = 837011171,
 			["RunAnimation"] = 837009922
 		},
-		["Body"] = {
-			["Face"] = 15432080
-		}
-	},
-
-	["Sparks Kilowatt"] = {
-		["Accessories"] = {
-			["HairAccessory"] = {
-				6567847711
-			},
-			["FaceAccessory"] = {
-				6567849659
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6567847711,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6567849659,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Pants"] = 2036740207
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.294118, 0.592157, 0.294118,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.431373, 0.6, 0.792157,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.431373, 0.6, 0.792157
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1018552770,
-			["ClimbAnimation"] = 1018554668,
-			["IdleAnimation"] = 1018553897,
-			["WalkAnimation"] = 1018549681,
-			["SwimAnimation"] = 1018554245,
-			["JumpAnimation"] = 1018553240,
-			["RunAnimation"] = 1018548665
-		},
-		["Body"] = {
-			["RightArm"] = 6567841604,
-			["Head"] = 6567845805,
-			["RightLeg"] = 6567842812,
-			["Torso"] = 6567844251,
-			["LeftArm"] = 6567838024,
-			["LeftLeg"] = 6567839992
-		}
-	},
-
-	["Sporeling"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				9175320898
-			},
-			["BackAccessory"] = {
-				9175323644
-			},
-			["ShouldersAccessory"] = {
-				9175327271,
-				9175325868
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 9175320898,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 9175327271,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 9175325868,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 9175323644,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.639216, 0.635294, 0.647059,
-			["TorsoColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftArmColor"] = 0.639216, 0.635294, 0.647059,
-			["RightLegColor"] = 0.639216, 0.635294, 0.647059,
-			["RightArmColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftLegColor"] = 0.639216, 0.635294, 0.647059
-		},
-		["Body"] = {
-			["RightArm"] = 9175313953,
-			["Head"] = 9175308856,
-			["RightLeg"] = 9175317035,
-			["Torso"] = 9175319249,
-			["LeftArm"] = 9175312327,
-			["LeftLeg"] = 9175315737
-		}
-	},
-
-	["Star-Mist Fairy"] = {
-		["Accessories"] = {
-			["BackAccessory"] = {
-				2859524688
-			},
-			["HairAccessory"] = {
-				2859521983
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 2859521983,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 2859524688,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
 		["Scale"] = {
 			["BodyTypeScale"] = 1
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
+			["HeadColor"] = Color3.fromRGB(242, 243, 243),
+			["TorsoColor"] = Color3.fromRGB(242, 243, 243),
+			["LeftArmColor"] = Color3.fromRGB(242, 243, 243),
+			["RightLegColor"] = Color3.fromRGB(242, 243, 243),
+			["RightArmColor"] = Color3.fromRGB(242, 243, 243),
+			["LeftLegColor"] = Color3.fromRGB(242, 243, 243)
 		},
 		["Body"] = {
-			["RightArm"] = 2859513040,
-			["Torso"] = 2859517114,
-			["Head"] = 2859520570,
-			["RightLeg"] = 2859515762,
-			["Face"] = 2859518465,
-			["LeftArm"] = 2859511736,
-			["LeftLeg"] = 2859514405
+			["RightArm"] = 2962663610,
+			["Torso"] = 2962665090,
+			["Head"] = 2962659137,
+			["RightLeg"] = 2962664429,
+			["Face"] = 2962660233,
+			["LeftArm"] = 2962661848,
+			["LeftLeg"] = 2962662653
 		}
 	},
 
-	["Starry Witch"] = {
+	["Junkbot"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				7541202003,
-				6214093945,
-				5163646671
+				4381828509
 			},
 			["BackAccessory"] = {
-				7066642123,
-				5552252553
-			},
-			["FrontAccessory"] = {
-				6209659844
+				4381832739
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 7541202003,
+				["AssetId"] = 4381828509,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 6214093945,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5163646671,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7541174696,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6909063964,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 6209659844,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Front
-			},
-			{
-				["AssetId"] = 7066642123,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 5552252553,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 8786281269,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			},
-			{
-				["AssetId"] = 4876466734,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				8786281269,
-				4876466734
-			},
-			["ShouldersAccessory"] = {
-				6909063964
-			},
-			["HairAccessory"] = {
-				7541174696
-			}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 866759124,
-			["Shirt"] = 8482309235,
-			["Pants"] = 8420423276
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeightScale"] = 0.9599999785423279,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.85098, 0.427451,
-			["TorsoColor"] = 0.972549, 0.85098, 0.427451,
-			["LeftArmColor"] = 0.972549, 0.85098, 0.427451,
-			["RightLegColor"] = 0.972549, 0.85098, 0.427451,
-			["RightArmColor"] = 0.972549, 0.85098, 0.427451,
-			["LeftLegColor"] = 0.972549, 0.85098, 0.427451
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 244160766
-		}
-	},
-
-	["Stead"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5693879776,
-				8091854095,
-				8285359027
-			},
-			["BackAccessory"] = {
-				4820150916
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5693879776,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 8091854095,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 8285359027,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7183785281,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 8040379705,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6811919465,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7284453144,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4378579302,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 4820150916,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 7029041712,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				7029041712
-			},
-			["NeckAccessory"] = {
-				4378579302
-			},
-			["HairAccessory"] = {
-				7183785281,
-				8040379705,
-				6811919465,
-				7284453144
-			}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 9082821917,
-			["Shirt"] = 8151542083,
-			["Pants"] = 7797858266
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.843137, 0.772549, 0.603922,
-			["TorsoColor"] = 0.843137, 0.772549, 0.603922,
-			["LeftArmColor"] = 0.843137, 0.772549, 0.603922,
-			["RightLegColor"] = 0.843137, 0.772549, 0.603922,
-			["RightArmColor"] = 0.843137, 0.772549, 0.603922,
-			["LeftLegColor"] = 0.843137, 0.772549, 0.603922
-		},
-		["Animation"] = {
-			["FallAnimation"] = 734326679,
-			["RunAnimation"] = 734325948,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 734326330,
-			["JumpAnimation"] = 734326930,
-			["SwimAnimation"] = 619512450
-		},
-		["Body"] = {
-			["Face"] = 7317773,
-			["Torso"] = 48474356,
-			["Head"] = 86498113
-		}
-	},
-
-	["Steampunk Robot"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4910710390
-			},
-			["BackAccessory"] = {
-				4910708916
-			},
-			["FaceAccessory"] = {
-				4952757609
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4910710390,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4952757609,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4910708916,
+				["AssetId"] = 4381832739,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Back
 			}
@@ -3559,79 +832,3037 @@ return {
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.639216, 0.635294, 0.647059,
-			["TorsoColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftArmColor"] = 0.639216, 0.635294, 0.647059,
-			["RightLegColor"] = 0.639216, 0.635294, 0.647059,
-			["RightArmColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftLegColor"] = 0.639216, 0.635294, 0.647059
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
 		},
 		["Body"] = {
-			["RightArm"] = 4908010631,
-			["Head"] = 4908014528,
-			["RightLeg"] = 4908012938,
-			["Torso"] = 4908013767,
-			["LeftArm"] = 4908007367,
-			["LeftLeg"] = 4908008480
+			["RightArm"] = 4381819685,
+			["Head"] = 4381826263,
+			["RightLeg"] = 4381821661,
+			["Torso"] = 4381823417,
+			["LeftArm"] = 4381815211,
+			["LeftLeg"] = 4381817635
 		}
 	},
 
-	["Storm"] = {
+	["Kangaroo"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				5136350369,
-				6741125648
-			},
-			["HairAccessory"] = {
-				5832723245,
-				5891050261
-			},
-			["FaceAccessory"] = {
-				7097873027
+				8207736143,
+				5593528711
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 5136350369,
+				["AssetId"] = 8207736143,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
+			{
+				["AssetId"] = 5593528711,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8031591412,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 8207713627,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7030051878,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 8207751453,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			},
+			{
+				["AssetId"] = 6775034896,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				8207751453,
+				6775034896
+			},
+			["NeckAccessory"] = {
+				7030051878
+			},
+			["FaceAccessory"] = {
+				8207713627
+			},
+			["HairAccessory"] = {
+				8031591412
+			}
+		},
+		["Clothing"] = {
+			["GraphicTShirt"] = 9040311414,
+			["Shirt"] = 8221470816,
+			["Pants"] = 8221456223
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(160, 95, 53),
+			["TorsoColor"] = Color3.fromRGB(160, 95, 53),
+			["LeftArmColor"] = Color3.fromRGB(160, 95, 53),
+			["RightLegColor"] = Color3.fromRGB(160, 95, 53),
+			["RightArmColor"] = Color3.fromRGB(160, 95, 53),
+			["LeftLegColor"] = Color3.fromRGB(160, 95, 53)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 754636589,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 734326930,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 3091071034
+		}
+	},
+
+	["Kelly"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				6778986933
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6778986933,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5869851231,
+			["Pants"] = 8828281142
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["HeightScale"] = 0.949999988079071,
+			["DepthScale"] = 0.8799999952316284,
+			["WidthScale"] = 0.75
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["RightArm"] = 27112039,
+			["LeftArm"] = 27112052,
+			["Torso"] = 27112025,
+			["Face"] = 7074729,
+			["RightLeg"] = 27112068,
+			["LeftLeg"] = 27112056
+		}
+	},
+
+	["Kermitt"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6201579679,
+				5945413096
+			},
+			["AccessoryBlob"] = {
+			{
+				["Order"] = 10,
+				["AssetId"] = 9242172820,
+				["AccessoryType"] = Enum.AccessoryType.Jacket,
+				["IsLayered"] = true
+			},
+			{
+				["AssetId"] = 6201579679,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5945413096,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5140453927,
+			["Pants"] = 6713980852
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["ProportionScale"] = 0.5,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["IdleAnimation"] = 2510235063
+		},
+		["Body"] = {
+			["RightArm"] = 2492669375,
+			["Head"] = 746767604,
+			["RightLeg"] = 376547092,
+			["Torso"] = 2492674027,
+			["LeftArm"] = 2492667589,
+			["LeftLeg"] = 376546668
+		}
+	},
+
+	["Kid Nezha"] = {
+		["Accessories"] = {
+			["NeckAccessory"] = {
+				7065894283
+			},
+			["WaistAccessory"] = {
+				7065897530
+			},
+			["HairAccessory"] = {
+				7065895886
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 7065895886,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 7065894283,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 7065897530,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 837010685,
+			["ClimbAnimation"] = 837013990,
+			["IdleAnimation"] = 837011741,
+			["WalkAnimation"] = 837010234,
+			["SwimAnimation"] = 837012509,
+			["JumpAnimation"] = 837011171,
+			["RunAnimation"] = 837009922
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 7065886938,
+			["Head"] = 7065890916,
+			["RightLeg"] = 7065888208,
+			["Torso"] = 7065889336,
+			["LeftArm"] = 7065883653,
+			["LeftLeg"] = 7065884944
+		}
+	},
+
+	["Kitsun"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				4545294236
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4545294236,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 3993393141,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 4708736975,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 4489579014,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			}
+		},
+			["NeckAccessory"] = {
+				4489579014
+			},
+			["FaceAccessory"] = {
+				4708736975
+			},
+			["HairAccessory"] = {
+				3993393141
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 2481552145,
+			["Pants"] = 2481555992
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.9200000166893005,
+			["HeightScale"] = 1.0499999523162842,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.8500000238418579
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(255, 255, 204),
+			["TorsoColor"] = Color3.fromRGB(255, 255, 204),
+			["LeftArmColor"] = Color3.fromRGB(255, 255, 204),
+			["RightLegColor"] = Color3.fromRGB(255, 255, 204),
+			["RightArmColor"] = Color3.fromRGB(255, 255, 204),
+			["LeftLegColor"] = Color3.fromRGB(255, 255, 204)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 754639239,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 25166274
+		}
+	},
+
+	["Kitty"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6471956081,
+				7037682087
+			},
+			["FrontAccessory"] = {
+				7101600441
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6471956081,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7037682087,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8129086535,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 7394713560,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 8471959805,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7101600441,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Front
+			}
+		},
+			["FaceAccessory"] = {
+				7394713560,
+				8471959805
+			},
+			["HairAccessory"] = {
+				8129086535
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6223419863,
+			["Pants"] = 4883253110
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.8500000238418579,
+			["DepthScale"] = 0.9200000166893005,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["RunAnimation"] = 1018548665,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 837012509,
+			["JumpAnimation"] = 754637084,
+			["ClimbAnimation"] = 619509955
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["LeftArm"] = 86499716,
+			["Torso"] = 86499666,
+			["Face"] = 7074661,
+			["RightLeg"] = 86499793,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Klee"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6741125648,
+				6841578089
+			},
+			["HairAccessory"] = {
+				5764649067
+			},
+			["AccessoryBlob"] = {
 			{
 				["AssetId"] = 6741125648,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 5832723245,
+				["AssetId"] = 6841578089,
 				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
+				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 5891050261,
+				["AssetId"] = 5764649067,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7097873027,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
 			}
 		}
 		},
 		["Clothing"] = {
-			["Shirt"] = 420309715,
-			["Pants"] = 420309780
+			["Shirt"] = 6472926512,
+			["Pants"] = 6472929746
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["LeftArm"] = 86499716,
+			["Torso"] = 86499666,
+			["Face"] = 7074661,
+			["RightLeg"] = 86499793,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Kobold"] = {
+		["Accessories"] = {
+			["NeckAccessory"] = {
+				376527115
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6309214263,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6501797625,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 376527115,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 6309249623,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["FaceAccessory"] = {
+				6501797625
+			},
+			["HatAccessory"] = {
+				6309214263
+			},
+			["WaistAccessory"] = {
+				6309249623
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6318420326,
+			["Pants"] = 6320356790
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(124, 156, 107),
+			["TorsoColor"] = Color3.fromRGB(124, 156, 107),
+			["LeftArmColor"] = Color3.fromRGB(124, 156, 107),
+			["RightLegColor"] = Color3.fromRGB(124, 156, 107),
+			["RightArmColor"] = Color3.fromRGB(124, 156, 107),
+			["LeftLegColor"] = Color3.fromRGB(124, 156, 107)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 2510230574,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 4018627046
+		}
+	},
+
+	["Krystal"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				3715951162,
+				6937047810
+			},
+			["BackAccessory"] = {
+				4735642922
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 3715951162,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6937047810,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7038188935,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 69486832,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 4735642922,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 4874365067,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				4874365067
+			},
+			["NeckAccessory"] = {
+				69486832
+			},
+			["HairAccessory"] = {
+				7038188935
+			}
+		},
+		["Clothing"] = {
+			["GraphicTShirt"] = 6110103690,
+			["Shirt"] = 4384250707,
+			["Pants"] = 6111212190
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["HeightScale"] = 0.8999999761581421,
+			["DepthScale"] = 0.9200000166893005,
+			["WidthScale"] = 0.8399999737739563
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(33, 84, 185),
+			["TorsoColor"] = Color3.fromRGB(33, 84, 185),
+			["LeftArmColor"] = Color3.fromRGB(33, 84, 185),
+			["RightLegColor"] = Color3.fromRGB(33, 84, 185),
+			["RightArmColor"] = Color3.fromRGB(33, 84, 185),
+			["LeftLegColor"] = Color3.fromRGB(33, 84, 185)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 25166274
+		}
+	},
+
+	["Krystal North"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				6214109782
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6214109782,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 6214102893,
+			["Head"] = 6214107846,
+			["RightLeg"] = 6214104259,
+			["Torso"] = 6214105688,
+			["LeftArm"] = 6214139270,
+			["LeftLeg"] = 6214101116
+		}
+	},
+
+	["Lamb Cultist"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				7165728449,
+				7100481883,
+				6997268164
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 7165728449,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7100481883,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6997268164,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9678815144,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 10721494775,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 8784494327,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			}
+		},
+			["NeckAccessory"] = {
+				8784494327
+			},
+			["FaceAccessory"] = {
+				10721494775
+			},
+			["HairAccessory"] = {
+				9678815144
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 10786234187,
+			["Pants"] = 10725302817
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(99, 95, 98),
+			["TorsoColor"] = Color3.fromRGB(99, 95, 98),
+			["LeftArmColor"] = Color3.fromRGB(99, 95, 98),
+			["RightLegColor"] = Color3.fromRGB(99, 95, 98),
+			["RightArmColor"] = Color3.fromRGB(99, 95, 98),
+			["LeftLegColor"] = Color3.fromRGB(99, 95, 98)
+		},
+		["Body"] = {
+			["Face"] = 15177601
+		}
+	},
+
+	["Lambi"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				8651126483,
+				8651120564
+			},
+			["BackAccessory"] = {
+				6217403607
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 8651126483,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8651120564,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7541174696,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 8533941524,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 6217403607,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 6472678590,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				6472678590
+			},
+			["NeckAccessory"] = {
+				8533941524
+			},
+			["HairAccessory"] = {
+				7541174696
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 8751392855,
+			["Pants"] = 8751394870
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(177, 167, 255),
+			["TorsoColor"] = Color3.fromRGB(177, 167, 255),
+			["LeftArmColor"] = Color3.fromRGB(177, 167, 255),
+			["RightLegColor"] = Color3.fromRGB(177, 167, 255),
+			["RightArmColor"] = Color3.fromRGB(177, 167, 255),
+			["LeftLegColor"] = Color3.fromRGB(177, 167, 255)
+		},
+		["Animation"] = {
+			["SwimAnimation"] = 658832807,
+			["RunAnimation"] = 619512153,
+			["IdleAnimation"] = 619511648,
+			["JumpAnimation"] = 619511974,
+			["WalkAnimation"] = 619512767
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 7987180607
+		}
+	},
+
+	["Lila"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6909081094,
+				5971691715,
+				7951082995
+			},
+			["BackAccessory"] = {
+				7951068621
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6909081094,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5971691715,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7951082995,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9731019453,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 301820310,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7951068621,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		},
+			["FaceAccessory"] = {
+				301820310
+			},
+			["HairAccessory"] = {
+				9731019453
+			}
+		},
+		["Clothing"] = {
+			["Pants"] = 6731686192
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 2510230574,
+			["IdleAnimation"] = 2510235063,
+			["WalkAnimation"] = 2510242378,
+			["SwimAnimation"] = 2510240941,
+			["JumpAnimation"] = 2510236649,
+			["RunAnimation"] = 2510238627
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["Torso"] = 86499666,
+			["Head"] = 86498113,
+			["RightLeg"] = 86500078,
+			["Face"] = 144075659,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86500064
+		}
+	},
+
+	["Lilith"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				7171591199,
+				4963111983
+			},
+			["BackAccessory"] = {
+				5765037841
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 7171591199,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4963111983,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8088927244,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 8031117370,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 4378579302,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 5765037841,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 4643730397,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				4643730397
+			},
+			["NeckAccessory"] = {
+				4378579302
+			},
+			["HairAccessory"] = {
+				8088927244,
+				8031117370
+			}
+		},
+		["Clothing"] = {
+			["GraphicTShirt"] = 8117916458,
+			["Shirt"] = 9101459597,
+			["Pants"] = 9109319743
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.800000011920929,
+			["DepthScale"] = 0.8999999761581421,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 973771666,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 2510240941,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 973766674
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 25166274
+		}
+	},
+
+	["Lily"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				6445398766
+			},
+			["FaceAccessory"] = {
+				6445400660
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6445398766,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6445400660,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Body"] = {
+			["RightArm"] = 6445391568,
+			["Head"] = 6445396809,
+			["RightLeg"] = 6445393432,
+			["Torso"] = 6445395347,
+			["LeftArm"] = 6445387966,
+			["LeftLeg"] = 6445390520
+		}
+	},
+
+	["Lin"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				301818464
+			},
+			["FaceAccessory"] = {
+				301820310
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 301818464,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 301820310,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 301806786,
+			["Pants"] = 301810423
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(255, 204, 153),
+			["TorsoColor"] = Color3.fromRGB(255, 204, 153),
+			["LeftArmColor"] = Color3.fromRGB(255, 204, 153),
+			["RightLegColor"] = Color3.fromRGB(255, 204, 153),
+			["RightArmColor"] = Color3.fromRGB(255, 204, 153),
+			["LeftLegColor"] = Color3.fromRGB(255, 204, 153)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["RightArm"] = 301822975,
+			["LeftArm"] = 301822804,
+			["Torso"] = 301824116,
+			["Face"] = 301826803,
+			["RightLeg"] = 301823806,
+			["LeftLeg"] = 301823492
+		}
+	},
+
+	["Lindsey"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				4637267557
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4637267557,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 4637603462,
+			["Pants"] = 4637605284
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Body"] = {
+			["RightArm"] = 4637263998,
+			["Torso"] = 4637265517,
+			["Head"] = 4637266996,
+			["RightLeg"] = 4637264878,
+			["Face"] = 4637266368,
+			["LeftArm"] = 4637262680,
+			["LeftLeg"] = 4637263492
+		}
+	},
+
+	["Linlin"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				6494077172
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6494077172,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Body"] = {
+			["RightArm"] = 6494055013,
+			["Head"] = 6494064291,
+			["RightLeg"] = 6494055897,
+			["Torso"] = 6494056892,
+			["LeftArm"] = 6494051962,
+			["LeftLeg"] = 6494053789
+		}
+	},
+
+	["Lixue"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6108353165,
+				5681141968,
+				4142983443
+			},
+			["BackAccessory"] = {
+				4904612752
+			},
+			["FrontAccessory"] = {
+				6309191549
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6108353165,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5681141968,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4142983443,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 1708329071,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 5029851469,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 6309191549,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Front
+			},
+			{
+				["AssetId"] = 4904612752,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 5674241989,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			},
+			{
+				["AssetId"] = 6532373980,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			},
+			{
+				["AssetId"] = 5831097721,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				5674241989,
+				6532373980,
+				5831097721
+			},
+			["FaceAccessory"] = {
+				5029851469
+			},
+			["HairAccessory"] = {
+				1708329071
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6198978285,
+			["Pants"] = 5925415890
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 12145366
+		}
+	},
+
+	["Lizzy"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6741125648
+			},
+			["HairAccessory"] = {
+				9799030093,
+				6128248269
+			},
+			["FaceAccessory"] = {
+				8668859717,
+				7097873027,
+				7565101463
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6741125648,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9799030093,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6128248269,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 8668859717,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7097873027,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7565101463,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6907415790,
+			["Pants"] = 4836602628
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1090132063,
+			["ClimbAnimation"] = 1090134016,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1090131576,
+			["SwimAnimation"] = 1090133583,
+			["JumpAnimation"] = 1090132507,
+			["RunAnimation"] = 1090130630
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 15470193
+		}
+	},
+
+	["Loona"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				5460001849
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5460001849,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4850328615,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 5461550398,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6807935930,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6564956579,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6591537179,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 5552969388,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 6076619160,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				6076619160
+			},
+			["FaceAccessory"] = {
+				5552969388
+			},
+			["HairAccessory"] = {
+				4850328615,
+				5461550398,
+				6807935930,
+				6564956579,
+				6591537179
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6524033393,
+			["Pants"] = 6523948615
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.8500000238418579,
+			["DepthScale"] = 0.9200000166893005,
+			["ProportionScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Body"] = {
+			["Torso"] = 48474356
+		}
+	},
+
+	["Lotus"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				7968529067,
+				6275932619
+			},
+			["BackAccessory"] = {
+				4846020493
+			},
+			["FrontAccessory"] = {
+				7968469001,
+				7968403277
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 7968529067,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6275932619,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7000726716,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 7968161172,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 7968171191,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 7968475140,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 7968469001,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Front
+			},
+			{
+				["AssetId"] = 7968403277,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Front
+			},
+			{
+				["AssetId"] = 4846020493,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 7968372850,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				7968372850
+			},
+			["ShouldersAccessory"] = {
+				7968161172,
+				7968171191,
+				7968475140
+			},
+			["HairAccessory"] = {
+				7000726716
+			}
+		},
+		["Clothing"] = {
+			["Pants"] = 7303897387
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.949999988079071,
+			["WidthScale"] = 0.8999999761581421
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["Torso"] = 86499666,
+			["Head"] = 86498113,
+			["RightLeg"] = 86499793,
+			["Face"] = 7893468574,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Luci"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				1374269
+			},
+			["NeckAccessory"] = {
+				106535250
+			},
+			["HairAccessory"] = {
+				41852455
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 1374269,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 41852455,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 106535250,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 54623999,
+			["Pants"] = 54623443
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0.10000000149011612,
+			["DepthScale"] = 0.8799999952316284,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.75
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(226, 155, 64),
+			["TorsoColor"] = Color3.fromRGB(226, 155, 64),
+			["LeftArmColor"] = Color3.fromRGB(226, 155, 64),
+			["RightLegColor"] = Color3.fromRGB(226, 155, 64),
+			["RightArmColor"] = Color3.fromRGB(226, 155, 64),
+			["LeftLegColor"] = Color3.fromRGB(226, 155, 64)
+		},
+		["Body"] = {
+			["Face"] = 15432080
+		}
+	},
+
+	["Lucky Gatito"] = {
+		["Scale"] = {
+			["BodyTypeScale"] = 1
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 2962569346,
+			["Head"] = 2962565530,
+			["RightLeg"] = 2962571936,
+			["Torso"] = 2962572734,
+			["LeftArm"] = 2962566996,
+			["LeftLeg"] = 2962568367
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 2510230574,
+			["IdleAnimation"] = 2510235063,
+			["WalkAnimation"] = 2510242378,
+			["SwimAnimation"] = 2510240941,
+			["JumpAnimation"] = 2510236649,
+			["RunAnimation"] = 2510238627
+		}
+	},
+
+	["Lyclus"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6447766520,
+				9858114920,
+				5198615122,
+				9858121220
+			},
+			["ShouldersAccessory"] = {
+				6807900054,
+				6807896402
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6447766520,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9858114920,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5198615122,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9858121220,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7028753067,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 4436722030,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 8518476966,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 6807900054,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 6807896402,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 9858123833,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				9858123833
+			},
+			["NeckAccessory"] = {
+				8518476966
+			},
+			["FaceAccessory"] = {
+				4436722030
+			},
+			["HairAccessory"] = {
+				7028753067
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 1062421581,
+			["Pants"] = 9862554852
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1113751889,
+			["ClimbAnimation"] = 1113754738,
+			["IdleAnimation"] = 892268340,
+			["WalkAnimation"] = 1113751657,
+			["SwimAnimation"] = 1113752975,
+			["JumpAnimation"] = 1113752285,
+			["RunAnimation"] = 1113750642
+		},
+		["Body"] = {
+			["Face"] = 31117267
+		}
+	},
+
+	["Madotsuki"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				5165670279
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5165670279,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6093592947,
+			["Pants"] = 5414863766
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 5319931619,
+			["IdleAnimation"] = 5319922112,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 5319927054,
+			["JumpAnimation"] = 5319917561,
+			["RunAnimation"] = 5319900634
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 15637848
+		}
+	},
+
+	["Magma Fiend"] = {
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 2608537440,
+			["Head"] = 2608540431,
+			["RightLeg"] = 2608538559,
+			["Torso"] = 2608539495,
+			["LeftArm"] = 2608534881,
+			["LeftLeg"] = 2608536258
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 2510230574,
+			["IdleAnimation"] = 2510235063,
+			["WalkAnimation"] = 2510242378,
+			["SwimAnimation"] = 2510240941,
+			["JumpAnimation"] = 2510236649,
+			["RunAnimation"] = 2510238627
+		}
+	},
+
+	["Mai"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				6656735919
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6656735919,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Body"] = {
+			["RightArm"] = 6656731306,
+			["Head"] = 6656734474,
+			["RightLeg"] = 6656732507,
+			["Torso"] = 6656733479,
+			["LeftArm"] = 6656729573,
+			["LeftLeg"] = 6656730379
+		}
+	},
+
+	["Mal0"] = {
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.949999988079071,
+			["HeadScale"] = 0.949999988079071,
+			["ProportionScale"] = 0.5,
+			["WidthScale"] = 0.8999999761581421
+		},
+		["Body"] = {
+			["RightArm"] = 8166936157,
+			["LeftArm"] = 8166926813,
+			["Torso"] = 2666843655,
+			["RightLeg"] = 3210772500,
+			["LeftLeg"] = 3210771126
+		},
+		["Accessories"] = {
+			["HatAccessory"] = {
+				8263780770,
+				9793854568,
+				5693879776
+			},
+			["WaistAccessory"] = {
+				7485974573
+			},
+			["HairAccessory"] = {
+				6823338112,
+				7667707103,
+				8821393761
+			},
+			["AccessoryBlob"] = {
+			{
+				["Order"] = 1,
+				["AssetId"] = 9503723956,
+				["AccessoryType"] = Enum.AccessoryType.Sweater,
+				["IsLayered"] = true
+			},
+			{
+				["Order"] = 2,
+				["AssetId"] = 9249485165,
+				["AccessoryType"] = Enum.AccessoryType.Jacket,
+				["IsLayered"] = true
+			},
+			{
+				["AssetId"] = 8263780770,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9793854568,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5693879776,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6823338112,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 7667707103,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 8821393761,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 7485974573,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		}
+	},
+
+	["Mannequin"] = {
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 3564996191,
+			["Head"] = 3565003656,
+			["RightLeg"] = 3565000331,
+			["Torso"] = 3565001999,
+			["LeftArm"] = 3564992608,
+			["LeftLeg"] = 3564994286
+		}
+	},
+
+	["Marisa"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				5641226458
+			},
+			["BackAccessory"] = {
+				4750345950
+			},
+			["HairAccessory"] = {
+				3993393141
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5641226458,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 3993393141,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 4750345950,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 4546730230,
+			["Pants"] = 4546731600
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8799999952316284,
+			["HeadScale"] = 0.949999988079071,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.75
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(253, 234, 141),
+			["TorsoColor"] = Color3.fromRGB(253, 234, 141),
+			["LeftArmColor"] = Color3.fromRGB(253, 234, 141),
+			["RightLegColor"] = Color3.fromRGB(253, 234, 141),
+			["RightArmColor"] = Color3.fromRGB(253, 234, 141),
+			["LeftLegColor"] = Color3.fromRGB(253, 234, 141)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 754639239,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 16101765
+		}
+	},
+
+	["Mech Golem"] = {
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 2807160792,
+			["Head"] = 2807164805,
+			["RightLeg"] = 2807162163,
+			["Torso"] = 2807163398,
+			["LeftArm"] = 2807157931,
+			["LeftLeg"] = 2807159482
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 2510230574,
+			["IdleAnimation"] = 2510235063,
+			["WalkAnimation"] = 2510242378,
+			["SwimAnimation"] = 2510240941,
+			["JumpAnimation"] = 2510236649,
+			["RunAnimation"] = 2510238627
+		}
+	},
+
+	["Mech Wasp Victory"] = {
+		["Accessories"] = {
+			["BackAccessory"] = {
+				2535538441
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 2535538441,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619521521,
+			["ClimbAnimation"] = 619521311,
+			["IdleAnimation"] = 619521748,
+			["WalkAnimation"] = 619522849,
+			["SwimAnimation"] = 619522642,
+			["JumpAnimation"] = 619522088,
+			["RunAnimation"] = 619522386
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 2535533389,
+			["Head"] = 2535537540,
+			["RightLeg"] = 2535534141,
+			["Torso"] = 2535535782,
+			["LeftArm"] = 2535525405,
+			["LeftLeg"] = 2535532638
+		}
+	},
+
+	["Mechameep"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				2571690253
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 2571690253,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619521521,
+			["ClimbAnimation"] = 619521311,
+			["IdleAnimation"] = 619521748,
+			["WalkAnimation"] = 619522849,
+			["SwimAnimation"] = 619522642,
+			["JumpAnimation"] = 619522088,
+			["RunAnimation"] = 619522386
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 2571692077,
+			["LeftArm"] = 2571690785,
+			["Torso"] = 2571694783,
+			["RightLeg"] = 2571694123,
+			["LeftLeg"] = 2571692872
+		}
+	},
+
+	["Megumin"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				100425207
+			},
+			["BackAccessory"] = {
+				7898729801,
+				7540738255
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 100425207,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5442176996,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 10714556970,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7898729801,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 7540738255,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 8786281269,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				8786281269
+			},
+			["FaceAccessory"] = {
+				10714556970
+			},
+			["HairAccessory"] = {
+				5442176996
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5639600649,
+			["Pants"] = 5639599996
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.699999988079071,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 416846300
+		}
+	},
+
+	["Megumin"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				100425207
+			},
+			["BackAccessory"] = {
+				7898729801,
+				7540738255
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 100425207,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5442176996,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 10714556970,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7898729801,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 7540738255,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			},
+			{
+				["AssetId"] = 8786281269,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				8786281269
+			},
+			["FaceAccessory"] = {
+				10714556970
+			},
+			["HairAccessory"] = {
+				5442176996
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5639600649,
+			["Pants"] = 5639599996
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.699999988079071,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 416846300
+		}
+	},
+
+	["Meowbah"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				1374269
+			},
+			["WaistAccessory"] = {
+				6101256850
+			},
+			["HairAccessory"] = {
+				6501711761
+			},
+			["AccessoryBlob"] = {
+			{
+				["Order"] = 6,
+				["AssetId"] = 9342190725,
+				["AccessoryType"] = Enum.AccessoryType.DressSkirt,
+				["IsLayered"] = true
+			},
+			{
+				["AssetId"] = 1374269,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6501711761,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6101256850,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 9251683856,
+			["Pants"] = 9251928795
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["HeightScale"] = 1.0499999523162842
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["RunAnimation"] = 1018548665,
+			["IdleAnimation"] = 1018553897,
+			["JumpAnimation"] = 1018553240,
+			["WalkAnimation"] = 973767371
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["Torso"] = 86499666,
+			["Head"] = 86498113,
+			["RightLeg"] = 86499793,
+			["Face"] = 11611321,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Mermaid"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				9733747295,
+				8275349855
+			},
+			["FrontAccessory"] = {
+				8851553548
+			},
+			["AccessoryBlob"] = {
+			{
+				["Order"] = 4,
+				["AssetId"] = 9872675902,
+				["AccessoryType"] = Enum.AccessoryType.Pants,
+				["IsLayered"] = true
+			},
+			{
+				["AssetId"] = 9733747295,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8275349855,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8034683079,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 9239982212,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 6471962889,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 8851553548,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Front
+			}
+		},
+			["NeckAccessory"] = {
+				6471962889
+			},
+			["FaceAccessory"] = {
+				9239982212
+			},
+			["HairAccessory"] = {
+				8034683079
+			}
+		},
+		["Clothing"] = {
+			["GraphicTShirt"] = 4730346314,
+			["Pants"] = 6501323053
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["HeightScale"] = 0.8999999761581421,
+			["DepthScale"] = 0.9200000166893005,
+			["WidthScale"] = 0.8500000238418579
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 754636589,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 734326930,
+			["RunAnimation"] = 619543231
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["LeftArm"] = 86499716,
+			["Torso"] = 86499666,
+			["Face"] = 7987180607,
+			["RightLeg"] = 2807146071,
+			["LeftLeg"] = 2807143328
+		}
+	},
+
+	["Michiru"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				102618663
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 102618663,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7038188935,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 12022229103,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 10001198860,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 5804064567,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				5804064567
+			},
+			["FaceAccessory"] = {
+				12022229103,
+				10001198860
+			},
+			["HairAccessory"] = {
+				7038188935
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5008796916,
+			["Pants"] = 5009798743
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Body"] = {
+			["Torso"] = 48474356
+		}
+	},
+
+	["Mime"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				5765336611,
+				7084418627
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5765336611,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7084418627,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6343602761,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6343086199,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6594911228,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6238789891,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 6995660023,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 5153968907,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 4604288766,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				4604288766
+			},
+			["NeckAccessory"] = {
+				5153968907
+			},
+			["FaceAccessory"] = {
+				6238789891,
+				6995660023
+			},
+			["HairAccessory"] = {
+				6343602761,
+				6343086199,
+				6594911228
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 7110510387,
+			["Pants"] = 7110579218
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 25166274
+		}
+	},
+
+	["Mira"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6695320426,
+				8655644537
+			},
+			["HairAccessory"] = {
+				6065692853,
+				5945436918
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6695320426,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8655644537,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6065692853,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 5945436918,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Clothing"] = {
+			["Pants"] = 6694509427
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0.6899999976158142,
+			["DepthScale"] = 0.8600000143051147,
+			["HeightScale"] = 0.9300000071525574,
+			["ProportionScale"] = 0.6399999856948853,
+			["WidthScale"] = 0.7099999785423279
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 973768058,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 973771666,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 1113742944,
+			["JumpAnimation"] = 973770652,
+			["RunAnimation"] = 2510238627
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["Head"] = 86498113,
+			["RightLeg"] = 86499793,
+			["Torso"] = 86499666,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Mirabel"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6275984490,
+				4998742293
+			},
+			["BackAccessory"] = {
+				5315452348
+			},
+			["FrontAccessory"] = {
+				6309497088
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6275984490,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4998742293,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7896142225,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6603584762,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 6682341755,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 6309497088,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Front
+			},
+			{
+				["AssetId"] = 5315452348,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		},
+			["NeckAccessory"] = {
+				6682341755
+			},
+			["FaceAccessory"] = {
+				6603584762
+			},
+			["HairAccessory"] = {
+				7896142225
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 8194567704,
+			["Pants"] = 8199999771
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["Torso"] = 86499666,
+			["Head"] = 86498113,
+			["RightLeg"] = 86499793,
+			["Face"] = 12145366,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Mistral"] = {
+		["Accessories"] = {
+			["NeckAccessory"] = {
+				5412054603
+			},
+			["BackAccessory"] = {
+				9417128452
+			},
+			["HairAccessory"] = {
+				6036986187
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6036986187,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 5412054603,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 9417128452,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 9181303009,
+			["Pants"] = 9181304008
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0.9900000095367432,
+			["DepthScale"] = 0.8500000238418579,
+			["HeightScale"] = 1.0499999523162842,
+			["ProportionScale"] = 0.9900000095367432,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 2510233257,
+			["ClimbAnimation"] = 2510230574,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 2510236649,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 9156271739
+		}
+	},
+
+	["Modeus"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				4966727590,
+				4821060375
+			},
+			["HairAccessory"] = {
+				4995766995,
+				4735437091
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4966727590,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4821060375,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4995766995,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 4735437091,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 5113117521,
+			["Pants"] = 5113094639
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8799999952316284,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 1.0499999523162842,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.75
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(255, 201, 201),
+			["TorsoColor"] = Color3.fromRGB(255, 201, 201),
+			["LeftArmColor"] = Color3.fromRGB(255, 201, 201),
+			["RightLegColor"] = Color3.fromRGB(255, 201, 201),
+			["RightArmColor"] = Color3.fromRGB(255, 201, 201),
+			["LeftLegColor"] = Color3.fromRGB(255, 201, 201)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 754636589,
+			["ClimbAnimation"] = 754639239,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 754637084,
+			["RunAnimation"] = 1018548665
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 7074944
+		}
+	},
+
+	["Monika"] = {
+		["Accessories"] = {
+			["HairAccessory"] = {
+				4753936402
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4753936402,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 1709940785,
+			["Pants"] = 1709937587
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["HeightScale"] = 0.8999999761581421,
+			["DepthScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.800000011920929
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
 		},
 		["Animation"] = {
 			["FallAnimation"] = 837010685,
@@ -3648,75 +3879,71 @@ return {
 		}
 	},
 
-	["Straell"] = {
+	["Mousey"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				4524465334
+				7168420902,
+				4627906928
 			},
-			["BackAccessory"] = {
-				4524460158
+			["WaistAccessory"] = {
+				6102721093,
+				6595197936
+			},
+			["NeckAccessory"] = {
+				4875436696
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 4524465334,
+				["AssetId"] = 7168420902,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 4087193092,
+				["AssetId"] = 4627906928,
 				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
+				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 5227164371,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4524497759,
+				["AssetId"] = 4875436696,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Neck
 			},
 			{
-				["AssetId"] = 4524460158,
+				["AssetId"] = 6102721093,
 				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		},
-			["NeckAccessory"] = {
-				4524497759
+				["AccessoryType"] = Enum.AccessoryType.Waist
 			},
-			["FaceAccessory"] = {
-				5227164371
-			},
-			["HairAccessory"] = {
-				4087193092
+			{
+				["AssetId"] = 6595197936,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
 			}
+		}
 		},
 		["Clothing"] = {
-			["Shirt"] = 5014764582,
-			["Pants"] = 5014762939
+			["Shirt"] = 4454572593,
+			["Pants"] = 6057685745
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.843137, 0.772549, 0.603922,
-			["TorsoColor"] = 0.352941, 0.298039, 0.258824,
-			["LeftArmColor"] = 0.352941, 0.298039, 0.258824,
-			["RightLegColor"] = 0.352941, 0.298039, 0.258824,
-			["RightArmColor"] = 0.352941, 0.298039, 0.258824,
-			["LeftLegColor"] = 0.352941, 0.298039, 0.258824
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
 		},
 		["Animation"] = {
-			["FallAnimation"] = 973768058,
-			["ClimbAnimation"] = 973773170,
-			["IdleAnimation"] = 973771666,
-			["WalkAnimation"] = 973767371,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 973770652,
-			["RunAnimation"] = 973766674
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 5319931619,
+			["IdleAnimation"] = 5319922112,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 5319927054,
+			["JumpAnimation"] = 5319917561,
+			["RunAnimation"] = 5319900634
 		},
 		["Body"] = {
 			["Torso"] = 48474356,
@@ -3724,56 +3951,936 @@ return {
 		}
 	},
 
-	["Strawberry"] = {
+	["MouseyCherie"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				5029556311,
-				6595437287,
-				7177430484,
-				6540900069
+				1365767,
+				1098271
+			},
+			["BackAccessory"] = {
+				4940589769
 			},
 			["HairAccessory"] = {
-				7029439487
-			},
-			["FaceAccessory"] = {
-				6938664526
+				5548431957
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 5029556311,
+				["AssetId"] = 1365767,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 6595437287,
+				["AssetId"] = 1098271,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 7177430484,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6540900069,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7029439487,
+				["AssetId"] = 5548431957,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hair
 			},
 			{
-				["AssetId"] = 6938664526,
+				["AssetId"] = 4940589769,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Clothing"] = {
+			["GraphicTShirt"] = 863303268,
+			["Shirt"] = 142906957,
+			["Pants"] = 222951466
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeightScale"] = 0.8999999761581421,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(99, 95, 98),
+			["TorsoColor"] = Color3.fromRGB(99, 95, 98),
+			["LeftArmColor"] = Color3.fromRGB(99, 95, 98),
+			["RightLegColor"] = Color3.fromRGB(99, 95, 98),
+			["RightArmColor"] = Color3.fromRGB(99, 95, 98),
+			["LeftLegColor"] = Color3.fromRGB(99, 95, 98)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 658831500,
+			["ClimbAnimation"] = 658833139,
+			["IdleAnimation"] = 837011741,
+			["WalkAnimation"] = 837010234,
+			["SwimAnimation"] = 658832807,
+			["JumpAnimation"] = 658832070,
+			["RunAnimation"] = 837009922
+		},
+		["Body"] = {
+			["Face"] = 14861743
+		}
+	},
+
+	["Mr. Crash"] = {
+		["Scale"] = {
+			["BodyTypeScale"] = 1,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 3334083894,
+			["Head"] = 3334085813,
+			["RightLeg"] = 3334084544,
+			["Torso"] = 3334085134,
+			["LeftArm"] = 3334080265,
+			["LeftLeg"] = 3334083249
+		},
+		["Animation"] = {
+			["FallAnimation"] = 973768058,
+			["ClimbAnimation"] = 973773170,
+			["IdleAnimation"] = 973771666,
+			["WalkAnimation"] = 973767371,
+			["SwimAnimation"] = 973772659,
+			["JumpAnimation"] = 973770652,
+			["RunAnimation"] = 973766674
+		}
+	},
+
+	["Mr. Toilet"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				4416709914,
+				4416634992
+			},
+			["BackAccessory"] = {
+				4416644036
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4416709914,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4416634992,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4416644036,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 837010685,
+			["ClimbAnimation"] = 837013990,
+			["IdleAnimation"] = 837011741,
+			["WalkAnimation"] = 837010234,
+			["SwimAnimation"] = 837012509,
+			["JumpAnimation"] = 837011171,
+			["RunAnimation"] = 837009922
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(163, 162, 165),
+			["TorsoColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftArmColor"] = Color3.fromRGB(163, 162, 165),
+			["RightLegColor"] = Color3.fromRGB(163, 162, 165),
+			["RightArmColor"] = Color3.fromRGB(163, 162, 165),
+			["LeftLegColor"] = Color3.fromRGB(163, 162, 165)
+		},
+		["Body"] = {
+			["RightArm"] = 4416609175,
+			["Torso"] = 4416616726,
+			["Head"] = 4416630203,
+			["RightLeg"] = 4416612954,
+			["Face"] = 4416933495,
+			["LeftArm"] = 4416456281,
+			["LeftLeg"] = 4416605868
+		}
+	},
+
+	["Ms. Chalice"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				11516208136
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 11516208136,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 10126324990,
+			["Pants"] = 10126331724
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(253, 234, 141),
+			["TorsoColor"] = Color3.fromRGB(253, 234, 141),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(253, 234, 141),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(253, 234, 141)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356
+		}
+	},
+
+	["Muffet"] = {
+		["Accessories"] = {
+			["BackAccessory"] = {
+				6309604017
+			},
+			["HairAccessory"] = {
+				7286520018,
+				9192606729
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 7286520018,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 9192606729,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6309604017,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 7721464110,
+			["Pants"] = 7721505738
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.8500000238418579,
+			["DepthScale"] = 0.9200000166893005,
+			["ProportionScale"] = 0.20000000298023224
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(177, 167, 255),
+			["TorsoColor"] = Color3.fromRGB(177, 167, 255),
+			["LeftArmColor"] = Color3.fromRGB(177, 167, 255),
+			["RightLegColor"] = Color3.fromRGB(177, 167, 255),
+			["RightArmColor"] = Color3.fromRGB(177, 167, 255),
+			["LeftLegColor"] = Color3.fromRGB(177, 167, 255)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 619509955,
+			["IdleAnimation"] = 619511648,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["LeftArm"] = 86499716,
+			["Torso"] = 86499666,
+			["Face"] = 2986536321,
+			["RightLeg"] = 86499793,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Mush"] = {
+		["Accessories"] = {
+			["NeckAccessory"] = {
+				7386135926,
+				6102050527,
+				4378579302
+			},
+			["BackAccessory"] = {
+				9175323644
+			},
+			["AccessoryBlob"] = {
+			{
+				["Order"] = 9,
+				["AssetId"] = 9240757332,
+				["AccessoryType"] = Enum.AccessoryType.Sweater,
+				["IsLayered"] = true
+			},
+			{
+				["AssetId"] = 10527433092,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9175320898,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7386135926,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 6102050527,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 4378579302,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 9175327271,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 9175325868,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Shoulder
+			},
+			{
+				["AssetId"] = 9175323644,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		},
+			["ShouldersAccessory"] = {
+				9175327271,
+				9175325868
+			},
+			["HatAccessory"] = {
+				10527433092,
+				9175320898
+			}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 5319931619,
+			["IdleAnimation"] = 5319922112,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 5319927054,
+			["JumpAnimation"] = 5319917561,
+			["RunAnimation"] = 619512153
+		},
+		["Scale"] = {
+			["HeadScale"] = 0.949999988079071,
+			["ProportionScale"] = 0,
+			["BodyTypeScale"] = 1
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Body"] = {
+			["RightArm"] = 9175313953,
+			["Head"] = 9175308856,
+			["RightLeg"] = 9175317035,
+			["Torso"] = 2979695834,
+			["LeftArm"] = 9175312327,
+			["LeftLeg"] = 9175315737
+		}
+	},
+
+	["Mushroom"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				7389910229
+			},
+			["HairAccessory"] = {
+				6441570748,
+				6036986187
+			},
+			["FaceAccessory"] = {
+				7029569201
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 7389910229,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6441570748,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6036986187,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 7029569201,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Face
 			}
 		}
 		},
 		["Clothing"] = {
-			["Shirt"] = 984774014,
-			["Pants"] = 984774216
+			["Shirt"] = 6443387562,
+			["Pants"] = 7486895498
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1113742092,
+			["ClimbAnimation"] = 1113743239,
+			["IdleAnimation"] = 1113742618,
+			["WalkAnimation"] = 1113741192,
+			["SwimAnimation"] = 1113742944,
+			["JumpAnimation"] = 1113742359,
+			["RunAnimation"] = 1113740510
+		},
+		["Body"] = {
+			["Torso"] = 48474356
+		}
+	},
+
+	["Nailah"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				5392478853
+			},
+			["HairAccessory"] = {
+				5392475842
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5392478853,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5392475842,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 1
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
+		},
+		["Body"] = {
+			["RightArm"] = 5392468147,
+			["Head"] = 5392516820,
+			["RightLeg"] = 5392470876,
+			["Torso"] = 5392473446,
+			["LeftArm"] = 5392461624,
+			["LeftLeg"] = 5392465955
+		}
+	},
+
+	["Nanno"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				6441235821
+			},
+			["HairAccessory"] = {
+				6065692853
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 6441235821,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6065692853,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6410042457,
+			["Pants"] = 6410041556
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 1018554668,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 1018549681,
+			["SwimAnimation"] = 1018554245,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 1018548665
+		},
+		["Body"] = {
+			["RightArm"] = 86499698,
+			["Torso"] = 86499666,
+			["Head"] = 746767604,
+			["RightLeg"] = 86499793,
+			["Face"] = 7893455671,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86499753
+		}
+	},
+
+	["Neco Arc"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				7861327976
+			},
+			["AccessoryBlob"] = {
+			{
+				["Order"] = 6,
+				["AssetId"] = 9423982782,
+				["AccessoryType"] = Enum.AccessoryType.DressSkirt,
+				["IsLayered"] = true
+			},
+			{
+				["Order"] = 9,
+				["AssetId"] = 9342267390,
+				["AccessoryType"] = Enum.AccessoryType.Sweater,
+				["IsLayered"] = true
+			},
+			{
+				["AssetId"] = 7861327976,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 7960433196,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 10876606509,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7790955686,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				7790955686
+			},
+			["FaceAccessory"] = {
+				10876606509
+			},
+			["HairAccessory"] = {
+				7960433196
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 7576131164,
+			["Pants"] = 9353230185
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["DepthScale"] = 0.8500000238418579,
+			["HeadScale"] = 0.949999988079071,
+			["HeightScale"] = 0.8999999761581421,
+			["ProportionScale"] = 0,
+			["WidthScale"] = 0.699999988079071
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["RunAnimation"] = 5319900634,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 619511974,
+			["ClimbAnimation"] = 619509955
+		},
+		["Body"] = {
+			["RightArm"] = 27402580,
+			["LeftArm"] = 27402641,
+			["Torso"] = 9190434598,
+			["Face"] = 15432080,
+			["RightLeg"] = 27112068,
+			["LeftLeg"] = 27112056
+		}
+	},
+
+	["Neko Witch"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				5802475816
+			},
+			["HairAccessory"] = {
+				6239088262
+			},
+			["FaceAccessory"] = {
+				6214120785
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5802475816,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6239088262,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 6214120785,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6100985845,
+			["Pants"] = 6100971260
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(255, 204, 153),
+			["TorsoColor"] = Color3.fromRGB(255, 204, 153),
+			["LeftArmColor"] = Color3.fromRGB(255, 204, 153),
+			["RightLegColor"] = Color3.fromRGB(255, 204, 153),
+			["RightArmColor"] = Color3.fromRGB(255, 204, 153),
+			["LeftLegColor"] = Color3.fromRGB(255, 204, 153)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 837010685,
+			["ClimbAnimation"] = 837013990,
+			["IdleAnimation"] = 837011741,
+			["WalkAnimation"] = 837010234,
+			["SwimAnimation"] = 837012509,
+			["JumpAnimation"] = 837011171,
+			["RunAnimation"] = 837009922
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 25166274
+		}
+	},
+
+	["Nekomancer"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				4524993676
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 4524993676,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4995932000,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 4735413614,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 4772327953,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 4545294588,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 4482785969,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			}
+		},
+			["NeckAccessory"] = {
+				4482785969
+			},
+			["FaceAccessory"] = {
+				4772327953,
+				4545294588
+			},
+			["HairAccessory"] = {
+				4995932000,
+				4735413614
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 4526760115,
+			["Pants"] = 4526753848
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(255, 255, 204),
+			["TorsoColor"] = Color3.fromRGB(255, 255, 204),
+			["LeftArmColor"] = Color3.fromRGB(255, 255, 204),
+			["RightLegColor"] = Color3.fromRGB(255, 255, 204),
+			["RightArmColor"] = Color3.fromRGB(255, 255, 204),
+			["LeftLegColor"] = Color3.fromRGB(255, 255, 204)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 1018552770,
+			["ClimbAnimation"] = 754639239,
+			["IdleAnimation"] = 1018553897,
+			["WalkAnimation"] = 619512767,
+			["SwimAnimation"] = 619512450,
+			["JumpAnimation"] = 1018553240,
+			["RunAnimation"] = 619512153
+		},
+		["Body"] = {
+			["Torso"] = 48474356,
+			["Face"] = 2648912542
+		}
+	},
+
+	["Nerd"] = {
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(245, 205, 48),
+			["TorsoColor"] = Color3.fromRGB(245, 205, 48),
+			["LeftArmColor"] = Color3.fromRGB(245, 205, 48),
+			["RightLegColor"] = Color3.fromRGB(245, 205, 48),
+			["RightArmColor"] = Color3.fromRGB(245, 205, 48),
+			["LeftLegColor"] = Color3.fromRGB(245, 205, 48)
+		},
+		["Accessories"] = {
+			["HatAccessory"] = {
+				9468417713
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 9468417713,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			}
+		}
+		},
+		["Clothing"] = {
+			["Shirt"] = 8937280158,
+			["Pants"] = 129459077
+		}
+	},
+
+	["Nexure"] = {
+		["Accessories"] = {
+			["NeckAccessory"] = {
+				187998056,
+				8533941524
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 8262879374,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 5731051458,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8262875658,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 4850328615,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 187998056,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 8533941524,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 8262874589,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Waist
+			}
+		},
+			["WaistAccessory"] = {
+				8262874589
+			},
+			["HatAccessory"] = {
+				8262879374,
+				5731051458,
+				8262875658
+			},
+			["HairAccessory"] = {
+				4850328615
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 8263602239,
+			["Pants"] = 3679873132
+		},
+		["Scale"] = {
+			["BodyTypeScale"] = 0,
+			["WidthScale"] = 0.75,
+			["DepthScale"] = 0.8799999952316284,
+			["ProportionScale"] = 0
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
+		["Animation"] = {
+			["FallAnimation"] = 619511417,
+			["ClimbAnimation"] = 973773170,
+			["IdleAnimation"] = 837011741,
+			["WalkAnimation"] = 2510242378,
+			["SwimAnimation"] = 2510240941,
+			["JumpAnimation"] = 619511974,
+			["RunAnimation"] = 4418324223
+		},
+		["Body"] = {
+			["Head"] = 134082579,
+			["Face"] = 18151826
+		}
+	},
+
+	["Nicoline"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				5804154156,
+				6133262085
+			},
+			["HairAccessory"] = {
+				6689844655
+			},
+			["FaceAccessory"] = {
+				5700329323,
+				7394713560
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 5804154156,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6133262085,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 6689844655,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 5700329323,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7394713560,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			}
+		}
+		},
+		["Clothing"] = {
+			["GraphicTShirt"] = 7978071888,
+			["Shirt"] = 6796502399,
+			["Pants"] = 5067478718
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
@@ -3782,532 +4889,189 @@ return {
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
+			["HeadColor"] = Color3.fromRGB(234, 184, 146),
+			["TorsoColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftArmColor"] = Color3.fromRGB(234, 184, 146),
+			["RightLegColor"] = Color3.fromRGB(234, 184, 146),
+			["RightArmColor"] = Color3.fromRGB(234, 184, 146),
+			["LeftLegColor"] = Color3.fromRGB(234, 184, 146)
 		},
 		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 973771666,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
+			["FallAnimation"] = 5319914476,
+			["ClimbAnimation"] = 5319931619,
+			["IdleAnimation"] = 5319922112,
+			["WalkAnimation"] = 5319909330,
+			["SwimAnimation"] = 5319927054,
+			["JumpAnimation"] = 5319917561,
+			["RunAnimation"] = 5319900634
 		},
 		["Body"] = {
 			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
 			["Torso"] = 86499666,
-			["Face"] = 15432080,
-			["RightLeg"] = 86499793,
-			["LeftLeg"] = 86499753
+			["Head"] = 86498113,
+			["RightLeg"] = 86500078,
+			["Face"] = 22877700,
+			["LeftArm"] = 86499716,
+			["LeftLeg"] = 86500064
 		}
 	},
 
-	["Sue Sakamoto"] = {
+	["Nikky"] = {
+		["Body"] = {
+			["Torso"] = 48474356
+		},
+		["Body Colors"] = {
+			["HeadColor"] = Color3.fromRGB(248, 248, 248),
+			["TorsoColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftArmColor"] = Color3.fromRGB(248, 248, 248),
+			["RightLegColor"] = Color3.fromRGB(248, 248, 248),
+			["RightArmColor"] = Color3.fromRGB(248, 248, 248),
+			["LeftLegColor"] = Color3.fromRGB(248, 248, 248)
+		},
 		["Accessories"] = {
 			["HatAccessory"] = {
-				7286547871,
-				7793332894
+				6744682518
 			},
-			["WaistAccessory"] = {
-				5620404202
+			["HairAccessory"] = {
+				8925470964
 			},
 			["FaceAccessory"] = {
-				7033931496
+				10718493828
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 7286547871,
+				["AssetId"] = 6744682518,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 7793332894,
+				["AssetId"] = 8925470964,
 				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
+				["AccessoryType"] = Enum.AccessoryType.Hair
 			},
 			{
-				["AssetId"] = 7033931496,
+				["AssetId"] = 10718493828,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 5620404202,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
 			}
 		}
 		},
 		["Clothing"] = {
-			["Shirt"] = 3555726873,
-			["Pants"] = 3555723951
+			["Shirt"] = 9474920360,
+			["Pants"] = 9074832348
+		}
+	},
+
+	["Niko"] = {
+		["Accessories"] = {
+			["HatAccessory"] = {
+				12325171014,
+				9606814642
+			},
+			["BackAccessory"] = {
+				6309195738
+			},
+			["AccessoryBlob"] = {
+			{
+				["AssetId"] = 12325171014,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 9606814642,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hat
+			},
+			{
+				["AssetId"] = 8370292552,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Hair
+			},
+			{
+				["AssetId"] = 12325099659,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Face
+			},
+			{
+				["AssetId"] = 7546400029,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Neck
+			},
+			{
+				["AssetId"] = 6309195738,
+				["IsLayered"] = false,
+				["AccessoryType"] = Enum.AccessoryType.Back
+			}
+		},
+			["NeckAccessory"] = {
+				7546400029
+			},
+			["FaceAccessory"] = {
+				12325099659
+			},
+			["HairAccessory"] = {
+				8370292552
+			}
+		},
+		["Clothing"] = {
+			["Shirt"] = 6929987014,
+			["Pants"] = 8502370494
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 0,
 			["ProportionScale"] = 0
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
+			["HeadColor"] = Color3.fromRGB(204, 142, 105),
+			["TorsoColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftArmColor"] = Color3.fromRGB(204, 142, 105),
+			["RightLegColor"] = Color3.fromRGB(204, 142, 105),
+			["RightArmColor"] = Color3.fromRGB(204, 142, 105),
+			["LeftLegColor"] = Color3.fromRGB(204, 142, 105)
 		},
 		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 8560971
+			["IdleAnimation"] = 619511648
 		}
 	},
 
-	["Suki"] = {
+	["Noelle"] = {
 		["Accessories"] = {
 			["HatAccessory"] = {
-				4995608541,
-				7606816239,
-				7097491628
+				8029874849
 			},
-			["BackAccessory"] = {
-				4623015839,
-				6202450332,
-				7604122910
-			},
-			["FrontAccessory"] = {
-				7810506731
+			["HairAccessory"] = {
+				7609740070
 			},
 			["AccessoryBlob"] = {
 			{
-				["AssetId"] = 4995608541,
+				["AssetId"] = 8029874849,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hat
 			},
 			{
-				["AssetId"] = 7606816239,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7097491628,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6365093370,
+				["AssetId"] = 7609740070,
 				["IsLayered"] = false,
 				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6937477130,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7283475179,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 7810506731,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Front
-			},
-			{
-				["AssetId"] = 4623015839,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 6202450332,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 7604122910,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		},
-			["NeckAccessory"] = {
-				7283475179
-			},
-			["FaceAccessory"] = {
-				6937477130
-			},
-			["HairAccessory"] = {
-				6365093370
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 6442896374,
-			["Pants"] = 6442889323
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8600000143051147,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.7300000190734863
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.788235, 0.788235,
-			["TorsoColor"] = 1, 0.788235, 0.788235,
-			["LeftArmColor"] = 1, 0.788235, 0.788235,
-			["RightLegColor"] = 1, 0.788235, 0.788235,
-			["RightArmColor"] = 1, 0.788235, 0.788235,
-			["LeftLegColor"] = 1, 0.788235, 0.788235
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 391496223
-		}
-	},
-
-	["Sunny"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4641935884,
-				5830489694
-			},
-			["HairAccessory"] = {
-				6036147206
-			},
-			["FaceAccessory"] = {
-				5699865160
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4641935884,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5830489694,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6036147206,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5699865160,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
 			}
 		}
 		},
 		["Clothing"] = {
-			["Pants"] = 6246878253
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.917647, 0.721569, 0.572549,
-			["TorsoColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftArmColor"] = 0.917647, 0.721569, 0.572549,
-			["RightLegColor"] = 0.917647, 0.721569, 0.572549,
-			["RightArmColor"] = 0.917647, 0.721569, 0.572549,
-			["LeftLegColor"] = 0.917647, 0.721569, 0.572549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
-			["Torso"] = 86499666,
-			["Face"] = 226217449,
-			["RightLeg"] = 86500078,
-			["LeftLeg"] = 4637285693
-		}
-	},
-
-	["Sweet Tooth"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7546816994
-			},
-			["ShouldersAccessory"] = {
-				3240543366
-			},
-			["AccessoryBlob"] = {
-			{
-				["Order"] = 4,
-				["AssetId"] = 9187475704,
-				["AccessoryType"] = Enum.AccessoryType.Pants,
-				["IsLayered"] = true
-			},
-			{
-				["AssetId"] = 7546816994,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6809029840,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4263595639,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 191101707,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 3240543366,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 4528868308,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				4528868308
-			},
-			["HairAccessory"] = {
-				6809029840,
-				4263595639,
-				191101707
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 574915679,
-			["Pants"] = 184903525
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.44999998807907104,
-			["HeightScale"] = 1.0499999523162842,
-			["ProportionScale"] = 0.3499999940395355
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 4418326547,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
-		},
-		["Body"] = {
-			["Face"] = 7074944
-		}
-	},
-
-	["Sylveon"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7141938791,
-				6474321041
-			},
-			["BackAccessory"] = {
-				7854181693
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7141938791,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6474321041,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5899563393,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 9008209306,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 10718487379,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7854181693,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 5804062971,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				5804062971
-			},
-			["FaceAccessory"] = {
-				9008209306,
-				10718487379
-			},
-			["HairAccessory"] = {
-				5899563393
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 9624945117,
-			["Pants"] = 8589642726
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356
-		}
-	},
-
-	["Synth"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				6088618290,
-				8919336599
-			},
-			["BackAccessory"] = {
-				6792208386,
-				7066644796
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6088618290,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 8919336599,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4625426072,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 2587856116,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 6792208386,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 7066644796,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 7097494141,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				7097494141
-			},
-			["FaceAccessory"] = {
-				2587856116
-			},
-			["HairAccessory"] = {
-				4625426072
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 1167677820,
-			["Pants"] = 4941082929
+			["Shirt"] = 5971086854,
+			["Pants"] = 5971136850
 		},
 		["Scale"] = {
 			["BodyTypeScale"] = 1,
-			["HeightScale"] = 1.0499999523162842,
-			["WidthScale"] = 0.9900000095367432
+			["HeightScale"] = 0.8999999761581421,
+			["DepthScale"] = 0.8999999761581421,
+			["WidthScale"] = 0.800000011920929
 		},
 		["Body Colors"] = {
-			["HeadColor"] = 0.388235, 0.372549, 0.384314,
-			["TorsoColor"] = 0.388235, 0.372549, 0.384314,
-			["LeftArmColor"] = 0.388235, 0.372549, 0.384314,
-			["RightLegColor"] = 0.388235, 0.372549, 0.384314,
-			["RightArmColor"] = 0.388235, 0.372549, 0.384314,
-			["LeftLegColor"] = 0.388235, 0.372549, 0.384314
+			["HeadColor"] = Color3.fromRGB(160, 95, 53),
+			["TorsoColor"] = Color3.fromRGB(160, 95, 53),
+			["LeftArmColor"] = Color3.fromRGB(160, 95, 53),
+			["RightLegColor"] = Color3.fromRGB(160, 95, 53),
+			["RightArmColor"] = Color3.fromRGB(160, 95, 53),
+			["LeftLegColor"] = Color3.fromRGB(160, 95, 53)
 		},
 		["Animation"] = {
 			["FallAnimation"] = 619511417,
@@ -4317,974 +5081,14 @@ return {
 			["SwimAnimation"] = 619512450,
 			["JumpAnimation"] = 619511974,
 			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 25166274
-		}
-	},
-
-	["Tails"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				9512406351,
-				5693879776
-			},
-			["BackAccessory"] = {
-				9368293184
-			},
-			["FaceAccessory"] = {
-				9607990600,
-				9501800925
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 9512406351,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5693879776,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 9607990600,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 9501800925,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 9368293184,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 10272311899,
-			["Pants"] = 9626751036
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
 		},
 		["Body"] = {
 			["RightArm"] = 27112039,
 			["LeftArm"] = 27112052,
 			["Torso"] = 27112025,
+			["Face"] = 244160766,
 			["RightLeg"] = 27112068,
 			["LeftLeg"] = 27112056
-		}
-	},
-
-	["Tali"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5693866986,
-				4641935884
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5693866986,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4641935884,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6036264253,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6105500511,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4466228735,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4197739997,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 6099260902,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			}
-		},
-			["NeckAccessory"] = {
-				6099260902
-			},
-			["FaceAccessory"] = {
-				6105500511,
-				4466228735,
-				4197739997
-			},
-			["HairAccessory"] = {
-				6036264253
-			}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 692779052,
-			["Shirt"] = 4631029849,
-			["Pants"] = 6453819065
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["DepthScale"] = 0.9200000166893005,
-			["HeightScale"] = 1.0499999523162842,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.8500000238418579
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.843137, 0.772549, 0.603922,
-			["TorsoColor"] = 0.843137, 0.772549, 0.603922,
-			["LeftArmColor"] = 0.843137, 0.772549, 0.603922,
-			["RightLegColor"] = 0.843137, 0.772549, 0.603922,
-			["RightArmColor"] = 0.843137, 0.772549, 0.603922,
-			["LeftLegColor"] = 0.843137, 0.772549, 0.603922
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619521521,
-			["ClimbAnimation"] = 5319931619,
-			["IdleAnimation"] = 973771666,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 1018548665
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["Torso"] = 86499666,
-			["Head"] = 86498113,
-			["RightLeg"] = 86500078,
-			["Face"] = 7317793,
-			["LeftArm"] = 86499716,
-			["LeftLeg"] = 86500064
-		}
-	},
-
-	["Talis"] = {
-		["Accessories"] = {
-			["HairAccessory"] = {
-				915267638
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 915267638,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 1792369127,
-			["Pants"] = 1788874654
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.9800000190734863,
-			["WidthScale"] = 0.949999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 26619096
-		}
-	},
-
-	["Tcgc"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				102619342,
-				9254254
-			},
-			["BackAccessory"] = {
-				4462142894
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 102619342,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 9254254,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4462142894,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Clothing"] = {
-			["GraphicTShirt"] = 4781442597,
-			["Shirt"] = 5995324179,
-			["Pants"] = 5995325906
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 1090132063,
-			["ClimbAnimation"] = 1090134016,
-			["IdleAnimation"] = 1090133099,
-			["WalkAnimation"] = 1090131576,
-			["SwimAnimation"] = 1090133583,
-			["JumpAnimation"] = 1090132507,
-			["RunAnimation"] = 1090130630
-		},
-		["Body"] = {
-			["Torso"] = 48474356
-		}
-	},
-
-	["Tem"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7436964106,
-				6533804012
-			},
-			["WaistAccessory"] = {
-				8262874589
-			},
-			["HairAccessory"] = {
-				398672920
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7436964106,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6533804012,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 398672920,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 8262874589,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 8269383136,
-			["Pants"] = 8269452681
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 619511974,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 15432080
-		}
-	},
-
-	["The Gals"] = {
-		["Accessories"] = {
-			["BackAccessory"] = {
-				11639840159
-			},
-			["HairAccessory"] = {
-				2956239660
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 2956239660,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 11639840159,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			}
-		}
-		},
-		["Clothing"] = {
-			["Pants"] = 398634487
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.788235, 0.788235,
-			["TorsoColor"] = 1, 0.788235, 0.788235,
-			["LeftArmColor"] = 1, 0.788235, 0.788235,
-			["RightLegColor"] = 1, 0.788235, 0.788235,
-			["RightArmColor"] = 1, 0.788235, 0.788235,
-			["LeftLegColor"] = 1, 0.788235, 0.788235
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["Torso"] = 86499666,
-			["Head"] = 86498113,
-			["RightLeg"] = 86499793,
-			["Face"] = 4018627046,
-			["LeftArm"] = 86499716,
-			["LeftLeg"] = 86499753
-		}
-	},
-
-	["Tigress"] = {
-		["Accessories"] = {
-			["NeckAccessory"] = {
-				7044363720
-			},
-			["AccessoryBlob"] = {
-			{
-				["Order"] = 9,
-				["AssetId"] = 9503714409,
-				["AccessoryType"] = Enum.AccessoryType.Sweater,
-				["IsLayered"] = true
-			},
-			{
-				["Order"] = 7,
-				["AssetId"] = 9244679839,
-				["AccessoryType"] = Enum.AccessoryType.TShirt,
-				["IsLayered"] = true
-			},
-			{
-				["AssetId"] = 7542739224,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 7542738046,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6754455467,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 7044363720,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 7542737065,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				7542737065
-			},
-			["HatAccessory"] = {
-				7542739224,
-				7542738046
-			},
-			["HairAccessory"] = {
-				6754455467
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 3670737444
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 1
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 2510242378,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 2510238627
-		},
-		["Body"] = {
-			["RightArm"] = 3963481369,
-			["Head"] = 746767604,
-			["RightLeg"] = 3963483107,
-			["Torso"] = 3963485362,
-			["LeftArm"] = 3963476651,
-			["LeftLeg"] = 3963479563
-		}
-	},
-
-	["Tim"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				5620295124
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 5620295124,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6239388754,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 8690309048,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7394719821,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4378579302,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 5620418160,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				5620418160
-			},
-			["NeckAccessory"] = {
-				4378579302
-			},
-			["FaceAccessory"] = {
-				8690309048,
-				7394719821
-			},
-			["HairAccessory"] = {
-				6239388754
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 8950419351,
-			["Pants"] = 7161301764
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.8, 0.556863, 0.411765,
-			["LeftArmColor"] = 0.8, 0.556863, 0.411765,
-			["RightLegColor"] = 0.8, 0.556863, 0.411765,
-			["RightArmColor"] = 0.8, 0.556863, 0.411765,
-			["LeftLegColor"] = 0.8, 0.556863, 0.411765
-		},
-		["Animation"] = {
-			["SwimAnimation"] = 5319927054,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 5319909330,
-			["JumpAnimation"] = 2510236649,
-			["FallAnimation"] = 5319914476
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 7074764
-		}
-	},
-
-	["Toby"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7491739891,
-				6838616052,
-				5765092840
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7491739891,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6838616052,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 5765092840,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 4904074569,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 6995660023,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 7044369526,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 6838620752,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["WaistAccessory"] = {
-				6838620752
-			},
-			["NeckAccessory"] = {
-				7044369526
-			},
-			["FaceAccessory"] = {
-				6995660023
-			},
-			["HairAccessory"] = {
-				4904074569
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 6093936490,
-			["Pants"] = 4752948033
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.972549, 0.972549, 0.972549,
-			["TorsoColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftArmColor"] = 0.972549, 0.972549, 0.972549,
-			["RightLegColor"] = 0.972549, 0.972549, 0.972549,
-			["RightArmColor"] = 0.972549, 0.972549, 0.972549,
-			["LeftLegColor"] = 0.972549, 0.972549, 0.972549
-		},
-		["Animation"] = {
-			["FallAnimation"] = 619511417,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 2510235063,
-			["WalkAnimation"] = 5319909330,
-			["SwimAnimation"] = 5319927054,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 734325948
-		},
-		["Body"] = {
-			["Face"] = 11389372
-		}
-	},
-
-	["Toy Chica"] = {
-		["Accessories"] = {
-			["FaceAccessory"] = {
-				6108360623,
-				4753575115,
-				10939745651
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6108360623,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 4753575115,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			},
-			{
-				["AssetId"] = 10939745651,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Face
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 8550485753,
-			["Pants"] = 8560805650
-		},
-		["Scale"] = {
-			["HeadScale"] = 1.149999976158142,
-			["HeightScale"] = 1.0499999523162842,
-			["WidthScale"] = 0.8500000238418579,
-			["BodyTypeScale"] = 0.4000000059604645
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.827451, 0.196078,
-			["TorsoColor"] = 1, 0.827451, 0.196078,
-			["LeftArmColor"] = 1, 0.827451, 0.196078,
-			["RightLegColor"] = 1, 0.827451, 0.196078,
-			["RightArmColor"] = 1, 0.827451, 0.196078,
-			["LeftLegColor"] = 1, 0.827451, 0.196078
-		},
-		["Body"] = {
-			["RightArm"] = 32357584,
-			["LeftArm"] = 32357619,
-			["Torso"] = 86499666,
-			["Face"] = 5917459717,
-			["RightLeg"] = 4637122096,
-			["LeftLeg"] = 4637120072
-		}
-	},
-
-	["Trixie"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				7667009776,
-				2588172131
-			},
-			["WaistAccessory"] = {
-				5804064567
-			},
-			["HairAccessory"] = {
-				6533099417
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 7667009776,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 2588172131,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6533099417,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 5804064567,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 9012875590,
-			["Pants"] = 7224330012
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.0156863, 0.686275, 0.92549,
-			["TorsoColor"] = 0.0156863, 0.686275, 0.92549,
-			["LeftArmColor"] = 0.0156863, 0.686275, 0.92549,
-			["RightLegColor"] = 0.0156863, 0.686275, 0.92549,
-			["RightArmColor"] = 0.0156863, 0.686275, 0.92549,
-			["LeftLegColor"] = 0.0156863, 0.686275, 0.92549
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 22828351
-		}
-	},
-
-	["Troop"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				6410568857,
-				6099840251
-			},
-			["BackAccessory"] = {
-				6533732599,
-				6201700526
-			},
-			["FrontAccessory"] = {
-				6276539427
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 6410568857,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6099840251,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 6683948892,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Neck
-			},
-			{
-				["AssetId"] = 6683928387,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 6683924677,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Shoulder
-			},
-			{
-				["AssetId"] = 6276539427,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Front
-			},
-			{
-				["AssetId"] = 6533732599,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 6201700526,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Back
-			},
-			{
-				["AssetId"] = 6202123707,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		},
-			["NeckAccessory"] = {
-				6683948892
-			},
-			["ShouldersAccessory"] = {
-				6683928387,
-				6683924677
-			},
-			["WaistAccessory"] = {
-				6202123707
-			}
-		},
-		["Clothing"] = {
-			["Shirt"] = 6204093820,
-			["Pants"] = 6204094373
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0.10000000149011612,
-			["DepthScale"] = 0.8799999952316284,
-			["HeadScale"] = 0.949999988079071,
-			["HeightScale"] = 0.8999999761581421,
-			["WidthScale"] = 0.75
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.8, 0.556863, 0.411765,
-			["TorsoColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightLegColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["RightArmColor"] = 0.0666667, 0.0666667, 0.0666667,
-			["LeftLegColor"] = 0.0666667, 0.0666667, 0.0666667
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 619527470,
-			["IdleAnimation"] = 973771666,
-			["WalkAnimation"] = 3307608414,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 619528716
-		},
-		["Body"] = {
-			["Torso"] = 48474356,
-			["Face"] = 2648912542
-		}
-	},
-
-	["Twash"] = {
-		["Accessories"] = {
-			["HatAccessory"] = {
-				4820904289
-			},
-			["WaistAccessory"] = {
-				4820906183
-			},
-			["HairAccessory"] = {
-				1772372988
-			},
-			["AccessoryBlob"] = {
-			{
-				["AssetId"] = 4820904289,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hat
-			},
-			{
-				["AssetId"] = 1772372988,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Hair
-			},
-			{
-				["AssetId"] = 4820906183,
-				["IsLayered"] = false,
-				["AccessoryType"] = Enum.AccessoryType.Waist
-			}
-		}
-		},
-		["Clothing"] = {
-			["Shirt"] = 1435770821,
-			["Pants"] = 1599317796
-		},
-		["Scale"] = {
-			["BodyTypeScale"] = 0,
-			["DepthScale"] = 0.8500000238418579,
-			["HeightScale"] = 0.8999999761581421,
-			["ProportionScale"] = 0,
-			["WidthScale"] = 0.699999988079071
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 1, 0.8, 0.6,
-			["TorsoColor"] = 1, 0.8, 0.6,
-			["LeftArmColor"] = 1, 0.8, 0.6,
-			["RightLegColor"] = 1, 0.8, 0.6,
-			["RightArmColor"] = 1, 0.8, 0.6,
-			["LeftLegColor"] = 1, 0.8, 0.6
-		},
-		["Animation"] = {
-			["FallAnimation"] = 754636589,
-			["ClimbAnimation"] = 619509955,
-			["IdleAnimation"] = 619511648,
-			["WalkAnimation"] = 619512767,
-			["SwimAnimation"] = 619512450,
-			["JumpAnimation"] = 734326930,
-			["RunAnimation"] = 619512153
-		},
-		["Body"] = {
-			["RightArm"] = 86499698,
-			["LeftArm"] = 86499716,
-			["Torso"] = 86499666,
-			["Face"] = 3091071034,
-			["RightLeg"] = 86500078,
-			["LeftLeg"] = 86500064
-		}
-	},
-
-	["Ud'zal"] = {
-		["Scale"] = {
-			["BodyTypeScale"] = 1,
-			["ProportionScale"] = 0
-		},
-		["Body Colors"] = {
-			["HeadColor"] = 0.639216, 0.635294, 0.647059,
-			["TorsoColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftArmColor"] = 0.639216, 0.635294, 0.647059,
-			["RightLegColor"] = 0.639216, 0.635294, 0.647059,
-			["RightArmColor"] = 0.639216, 0.635294, 0.647059,
-			["LeftLegColor"] = 0.639216, 0.635294, 0.647059
-		},
-		["Body"] = {
-			["RightArm"] = 3333102326,
-			["Head"] = 3333105280,
-			["RightLeg"] = 3333103459,
-			["Torso"] = 3333104378,
-			["LeftArm"] = 3333096407,
-			["LeftLeg"] = 3333101194
-		},
-		["Animation"] = {
-			["FallAnimation"] = 2510233257,
-			["ClimbAnimation"] = 2510230574,
-			["IdleAnimation"] = 3307605825,
-			["WalkAnimation"] = 3307608414,
-			["SwimAnimation"] = 2510240941,
-			["JumpAnimation"] = 2510236649,
-			["RunAnimation"] = 3236849826
 		}
 	}
 }
